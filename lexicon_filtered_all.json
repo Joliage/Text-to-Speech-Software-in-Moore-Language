@@ -1,0 +1,2224 @@
+{
+  "a": [
+    "AA_1_(a1)",
+    "AA_2_(a2)",
+    "AA_3_(a3)"
+  ],
+  "aa": [
+    "AA_AA_1_(aa1)",
+    "AA_AA_2_(aa2)",
+    "AA_AA_3_(aa3)"
+  ],
+  "aab": [
+    "AA_AA_B_1_(aab1)",
+    "AA_AA_B_2_(aab2)",
+    "AA_AA_B_3_(aab3)"
+  ],
+  "aag": [
+    "AA_AA_G_1_(aag1)",
+    "AA_AA_G_2_(aag2)",
+    "AA_AA_G_3_(aag3)"
+  ],
+  "aand": [
+    "AA_AA_N_D_1_(aand1)",
+    "AA_AA_N_D_2_(aand2)",
+    "AA_AA_N_D_3_(aand3)"
+  ],
+  "ag": [
+    "AA_G_1_(ag1)",
+    "AA_G_2_(ag2)",
+    "AA_G_3_(ag3)"
+  ],
+  "ah": [
+    "AA_HH_1_(ah1)",
+    "AA_HH_2_(ah2)",
+    "AA_HH_3_(ah3)"
+  ],
+  "ai": [
+    "AA_IY_1_(ai1)",
+    "AA_IY_2_(ai2)",
+    "AA_IY_3_(ai3)"
+  ],
+  "al": [
+    "AA_L_1_(al1)",
+    "AA_L_2_(al2)",
+    "AA_L_3_(al3)"
+  ],
+  "and": [
+    "AA_N_D_1_(and1)",
+    "AA_N_D_2_(and2)",
+    "AA_N_D_3_(and3)"
+  ],
+  "ane": [
+    "AA_N_EY_1_(ane1)",
+    "AA_N_EY_2_(ane2)",
+    "AA_N_EY_3_(ane3)"
+  ],
+  "ar": [
+    "AA_R_1_(ar1)",
+    "AA_R_2_(ar2)",
+    "AA_R_3_(ar3)"
+  ],
+  "b": [
+    "B_1_(b1)",
+    "B_2_(b2)",
+    "B_3_(b3)"
+  ],
+  "ba": [
+    "B_AA_1_(ba1)",
+    "B_AA_2_(ba2)",
+    "B_AA_3_(ba3)"
+  ],
+  "baal": [
+    "B_AA_1_AA_1_L_(ba1al1)",
+    "B_AA_2_AA_2_L_(ba2al2)",
+    "B_AA_3_AA_3_L_(ba3al3)"
+  ],
+  "baan": [
+    "B_AA_1_AA_1_N_(ba1an1)",
+    "B_AA_2_AA_2_N_(ba2an2)",
+    "B_AA_3_AA_3_N_(ba3an3)"
+  ],
+  "ban": [
+    "B_AA_N_1_(ban1)",
+    "B_AA_N_2_(ban2)",
+    "B_AA_N_3_(ban3)"
+  ],
+  "bang": [
+    "B_AA_NG_1_(bang1)",
+    "B_AA_NG_2_(bang2)",
+    "B_AA_NG_3_(bang3)"
+  ],
+  "baon": [
+    "B_AA_1_OW_1_N_(ba1on1)",
+    "B_AA_2_OW_2_N_(ba2on2)",
+    "B_AA_3_OW_2_N_(ba3on2)"
+  ],
+  "bas": [
+    "B_AA_S_1_(bas1)",
+    "B_AA_S_2_(bas2)",
+    "B_AA_S_3_(bas3)"
+  ],
+  "be": [
+    "B_EY_1_(be1)",
+    "B_EY_2_(be2)",
+    "B_EY_3_(be3)"
+  ],
+  "bee": [
+    "B_EY_1_EY_1_(be1e1)",
+    "B_EY_2_EY_2_(be2e2)",
+    "B_EY_3_EY_3_(be3e3)"
+  ],
+  "bek": [
+    "B_EY_K_1_(bek1)",
+    "B_EY_K_2_(bek2)",
+    "B_EY_K_3_(bek3)"
+  ],
+  "bel": [
+    "B_EY_L_1_(bel1)",
+    "B_EY_L_2_(bel2)",
+    "B_EY_L_3_(bel3)"
+  ],
+  "ben": [
+    "B_EY_N_1_(ben1)",
+    "B_EY_N_2_(ben2)",
+    "B_EY_N_3_(ben3)"
+  ],
+  "beng": [
+    "B_EY_NG_1_(beng1)",
+    "B_EY_NG_2_(beng2)",
+    "B_EY_NG_3_(beng3)"
+  ],
+  "benl": [
+    "B_EY_N_L_1_(benl1)",
+    "B_EY_N_L_2_(benl2)",
+    "B_EY_N_L_3_(benl3)"
+  ],
+  "benod": [
+    "B_EY_1_N_OW_1_D_(ben1od1)",
+    "B_EY_2_N_OW_2_D_(ben2od2)",
+    "B_EY_3_N_OW_3_D_(ben3od3)"
+  ],
+  "beoo": [
+    "B_EY_1_OW_OW_1_(be1oo1)",
+    "B_EY_2_OW_OW_2_(be2oo2)",
+    "B_EY_3_OW_OW_3_(be3oo3)"
+  ],
+  "bes": [
+    "B_EY_S_1_(bes1)",
+    "B_EY_S_2_(bes2)",
+    "B_EY_S_3_(bes3)"
+  ],
+  "bi": [
+    "B_IY_1_(bi1)",
+    "B_IY_2_(bi2)",
+    "B_IY_3_(bi3)"
+  ],
+  "bii": [
+    "B_IY_1_IY_1_(bi1i1)",
+    "B_IY_2_IY_2_(bi2i2)",
+    "B_IY_3_IY_2_(bi3i2)",
+    "B_IY_IY_1_(bii1)",
+    "B_IY_IY_2_(bii2)",
+    "B_IY_IY_3_(bii3)"
+  ],
+  "bing": [
+    "B_IY_NG_1_(bing1)",
+    "B_IY_NG_2_(bing2)",
+    "B_IY_NG_3_(bing3)"
+  ],
+  "bit": [
+    "B_IY_T_1_(bit1)",
+    "B_IY_T_2_(bit2)",
+    "B_IY_T_3_(bit3)"
+  ],
+  "bo": [
+    "B_OW_1_(bo1)",
+    "B_OW_2_(bo2)",
+    "B_OW_3_(bo3)"
+  ],
+  "bobd": [
+    "B_OW_B_D_1_(bobd1)",
+    "B_OW_B_D_2_(bobd2)",
+    "B_OW_B_D_3_(bobd3)"
+  ],
+  "bod": [
+    "B_OW_D_1_(bod1)",
+    "B_OW_D_2_(bod2)",
+    "B_OW_D_3_(bod3)"
+  ],
+  "bog": [
+    "B_OW_G_1_(bog1)",
+    "B_OW_G_2_(bog2)",
+    "B_OW_G_3_(bog3)"
+  ],
+  "bon": [
+    "B_OW_N_1_(bon1)",
+    "B_OW_N_2_(bon2)",
+    "B_OW_N_3_(bon3)"
+  ],
+  "bonan": [
+    "B_OW_1_N_AA_2_N_(bon1an2)",
+    "B_OW_2_N_AA_2_N_(bon2an2)",
+    "B_OW_3_N_AA_3_N_(bon3an3)"
+  ],
+  "bone": [
+    "B_OW_N_EY_1_(bone1)",
+    "B_OW_N_EY_2_(bone2)",
+    "B_OW_N_EY_3_(bone3)"
+  ],
+  "bor": [
+    "B_OW_R_1_(bor1)",
+    "B_OW_R_2_(bor2)",
+    "B_OW_R_3_(bor3)"
+  ],
+  "bre": [
+    "B_R_EY_1_(bre1)",
+    "B_R_EY_2_(bre2)",
+    "B_R_EY_3_(bre3)"
+  ],
+  "bu": [
+    "B_UW_1_(bu1)",
+    "B_UW_2_(bu2)",
+    "B_UW_3_(bu3)"
+  ],
+  "bug": [
+    "B_UW_G_1_(bug1)",
+    "B_UW_G_2_(bug2)",
+    "B_UW_G_3_(bug3)"
+  ],
+  "bul": [
+    "B_UW_L_1_(bul1)",
+    "B_UW_L_2_(bul2)",
+    "B_UW_L_3_(bul3)"
+  ],
+  "bum": [
+    "B_UW_M_1_(bum1)",
+    "B_UW_M_2_(bum2)",
+    "B_UW_M_3_(bum3)"
+  ],
+  "bumb": [
+    "B_UW_M_B_1_(bumb1)",
+    "B_UW_M_B_2_(bumb2)",
+    "B_UW_M_B_3_(bumb3)"
+  ],
+  "buu": [
+    "B_UW_1_UW_1_(bu1u1)",
+    "B_UW_2_UW_2_(bu2u2)",
+    "B_UW_3_UW_2_(bu3u2)"
+  ],
+  "d": [
+    "D_1_(d1)",
+    "D_2_(d2)",
+    "D_3_(d3)"
+  ],
+  "da": [
+    "D_AA_1_(da1)",
+    "D_AA_2_(da2)",
+    "D_AA_3_(da3)"
+  ],
+  "dan": [
+    "D_AA_N_1_(dan1)",
+    "D_AA_N_2_(dan2)",
+    "D_AA_N_3_(dan3)"
+  ],
+  "dat": [
+    "D_AA_T_1_(dat1)",
+    "D_AA_T_2_(dat2)",
+    "D_AA_T_3_(dat3)"
+  ],
+  "de": [
+    "D_EY_1_(de1)",
+    "D_EY_2_(de2)",
+    "D_EY_3_(de3)"
+  ],
+  "demm": [
+    "D_EY_M_M_1_(demm1)",
+    "D_EY_M_M_2_(demm2)",
+    "D_EY_M_M_3_(demm3)"
+  ],
+  "den": [
+    "D_EY_N_1_(den1)",
+    "D_EY_N_2_(den2)",
+    "D_EY_N_3_(den3)"
+  ],
+  "di": [
+    "D_IY_1_(di1)",
+    "D_IY_2_(di2)",
+    "D_IY_3_(di3)"
+  ],
+  "dik": [
+    "D_IY_K_1_(dik1)",
+    "D_IY_K_2_(dik2)",
+    "D_IY_K_3_(dik3)"
+  ],
+  "do": [
+    "D_OW_1_(do1)",
+    "D_OW_2_(do2)",
+    "D_OW_3_(do3)"
+  ],
+  "doaa": [
+    "D_OW_1_AA_AA_1_(do1aa1)",
+    "D_OW_2_AA_AA_2_(do2aa2)",
+    "D_OW_3_AA_AA_2_(do3aa2)"
+  ],
+  "don": [
+    "D_OW_N_1_(don1)",
+    "D_OW_N_2_(don2)",
+    "D_OW_N_3_(don3)"
+  ],
+  "donaa": [
+    "D_OW_1_N_AA_AA_1_(don1aa1)",
+    "D_OW_2_N_AA_AA_2_(don2aa2)",
+    "D_OW_3_N_AA_AA_3_(don3aa3)"
+  ],
+  "dran": [
+    "D_R_AA_N_1_(dran1)",
+    "D_R_AA_N_2_(dran2)",
+    "D_R_AA_N_3_(dran3)"
+  ],
+  "du": [
+    "D_UW_1_(du1)",
+    "D_UW_2_(du2)",
+    "D_UW_3_(du3)"
+  ],
+  "ee": [
+    "EY_EY_1_(ee1)",
+    "EY_EY_2_(ee2)",
+    "EY_EY_3_(ee3)"
+  ],
+  "en": [
+    "EY_N_1_(en1)",
+    "EY_N_2_(en2)",
+    "EY_N_3_(en3)"
+  ],
+  "eyyn": [
+    "EY_Y_Y_N_1_(eyyn1)",
+    "EY_Y_Y_N_2_(eyyn2)",
+    "EY_Y_Y_N_3_(eyyn3)"
+  ],
+  "f": [
+    "F_1_(f1)",
+    "F_2_(f2)",
+    "F_3_(f3)"
+  ],
+  "fa": [
+    "F_AA_1_(fa1)",
+    "F_AA_2_(fa2)",
+    "F_AA_3_(fa3)"
+  ],
+  "faa": [
+    "F_AA_1_AA_1_(fa1a1)",
+    "F_AA_1_AA_2_(fa1a2)",
+    "F_AA_2_AA_2_(fa2a2)",
+    "F_AA_3_AA_2_(fa3a2)",
+    "F_AA_3_AA_3_(fa3a3)"
+  ],
+  "faan": [
+    "F_AA_1_AA_1_N_(fa1an1)",
+    "F_AA_2_AA_2_N_(fa2an2)",
+    "F_AA_3_AA_3_N_(fa3an3)"
+  ],
+  "fakl": [
+    "F_AA_K_L_1_(fakl1)",
+    "F_AA_K_L_2_(fakl2)",
+    "F_AA_K_L_3_(fakl3)"
+  ],
+  "fan": [
+    "F_AA_N_1_(fan1)",
+    "F_AA_N_2_(fan2)",
+    "F_AA_N_3_(fan3)"
+  ],
+  "faoo": [
+    "F_AA_1_OW_OW_1_(fa1oo1)",
+    "F_AA_2_OW_OW_2_(fa2oo2)",
+    "F_AA_3_OW_OW_2_(fa3oo2)",
+    "F_AA_3_OW_OW_3_(fa3oo3)"
+  ],
+  "fe": [
+    "F_EY_1_(fe1)",
+    "F_EY_2_(fe2)",
+    "F_EY_3_(fe3)"
+  ],
+  "febg": [
+    "F_EY_B_G_1_(febg1)",
+    "F_EY_B_G_2_(febg2)",
+    "F_EY_B_G_3_(febg3)"
+  ],
+  "fen": [
+    "F_EY_N_1_(fen1)",
+    "F_EY_N_2_(fen2)",
+    "F_EY_N_3_(fen3)"
+  ],
+  "fi": [
+    "F_IY_1_(fi1)",
+    "F_IY_2_(fi2)",
+    "F_IY_3_(fi3)"
+  ],
+  "fig": [
+    "F_IY_G_1_(fig1)",
+    "F_IY_G_2_(fig2)",
+    "F_IY_G_3_(fig3)"
+  ],
+  "fii": [
+    "F_IY_1_IY_1_(fi1i1)",
+    "F_IY_2_IY_2_(fi2i2)",
+    "F_IY_3_IY_3_(fi3i3)"
+  ],
+  "fin": [
+    "F_IY_N_1_(fin1)",
+    "F_IY_N_2_(fin2)",
+    "F_IY_N_3_(fin3)"
+  ],
+  "fo": [
+    "F_OW_1_(fo1)",
+    "F_OW_2_(fo2)",
+    "F_OW_3_(fo3)"
+  ],
+  "fu": [
+    "F_UW_1_(fu1)",
+    "F_UW_2_(fu2)",
+    "F_UW_3_(fu3)"
+  ],
+  "ful": [
+    "F_UW_L_1_(ful1)",
+    "F_UW_L_2_(ful2)",
+    "F_UW_L_3_(ful3)"
+  ],
+  "fun": [
+    "F_UW_N_1_(fun1)",
+    "F_UW_N_2_(fun2)",
+    "F_UW_N_3_(fun3)"
+  ],
+  "fung": [
+    "F_UW_NG_1_(fung1)",
+    "F_UW_NG_2_(fung2)",
+    "F_UW_NG_3_(fung3)"
+  ],
+  "ga": [
+    "G_AA_1_(ga1)",
+    "G_AA_2_(ga2)",
+    "G_AA_3_(ga3)"
+  ],
+  "gas": [
+    "G_AA_S_1_(gas1)",
+    "G_AA_S_2_(gas2)",
+    "G_AA_S_3_(gas3)"
+  ],
+  "gat": [
+    "G_AA_T_1_(gat1)",
+    "G_AA_T_2_(gat2)",
+    "G_AA_T_3_(gat3)"
+  ],
+  "ge": [
+    "G_EY_1_(ge1)",
+    "G_EY_2_(ge2)",
+    "G_EY_3_(ge3)"
+  ],
+  "gem": [
+    "G_EY_M_1_(gem1)",
+    "G_EY_M_2_(gem2)",
+    "G_EY_M_3_(gem3)"
+  ],
+  "gen": [
+    "G_EY_N_1_(gen1)",
+    "G_EY_N_2_(gen2)",
+    "G_EY_N_3_(gen3)"
+  ],
+  "ges": [
+    "G_EY_S_1_(ges1)",
+    "G_EY_S_2_(ges2)",
+    "G_EY_S_3_(ges3)"
+  ],
+  "get": [
+    "G_EY_T_1_(get1)",
+    "G_EY_T_2_(get2)",
+    "G_EY_T_3_(get3)"
+  ],
+  "gey": [
+    "G_EY_Y_1_(gey1)",
+    "G_EY_Y_2_(gey2)",
+    "G_EY_Y_3_(gey3)"
+  ],
+  "gi": [
+    "G_IY_1_(gi1)",
+    "G_IY_2_(gi2)",
+    "G_IY_3_(gi3)"
+  ],
+  "gidg": [
+    "G_IY_D_G_1_(gidg1)",
+    "G_IY_D_G_2_(gidg2)",
+    "G_IY_D_G_3_(gidg3)"
+  ],
+  "gil": [
+    "G_IY_L_1_(gil1)",
+    "G_IY_L_2_(gil2)",
+    "G_IY_L_3_(gil3)"
+  ],
+  "gins": [
+    "G_IY_N_S_1_(gins1)",
+    "G_IY_N_S_2_(gins2)",
+    "G_IY_N_S_3_(gins3)"
+  ],
+  "go": [
+    "G_OW_1_(go1)",
+    "G_OW_2_(go2)",
+    "G_OW_3_(go3)"
+  ],
+  "goa": [
+    "G_OW_1_AA_1_(go1a1)",
+    "G_OW_2_AA_2_(go2a2)",
+    "G_OW_3_AA_3_(go3a3)",
+    "G_OW_AA_1_(goa1)",
+    "G_OW_AA_2_(goa2)",
+    "G_OW_AA_3_(goa3)"
+  ],
+  "goes": [
+    "G_OW_EY_S_1_(goes1)",
+    "G_OW_EY_S_2_(goes2)",
+    "G_OW_EY_S_3_(goes3)"
+  ],
+  "goetrn": [
+    "G_OW_1_EY_2_T_R_N_(go1etrn2)"
+  ],
+  "gom": [
+    "G_OW_M_1_(gom1)",
+    "G_OW_M_2_(gom2)",
+    "G_OW_M_3_(gom3)"
+  ],
+  "gonm": [
+    "G_OW_N_M_1_(gonm1)",
+    "G_OW_N_M_2_(gonm2)",
+    "G_OW_N_M_3_(gonm3)"
+  ],
+  "goo": [
+    "G_OW_1_OW_1_(go1o1)",
+    "G_OW_2_OW_2_(go2o2)",
+    "G_OW_3_OW_3_(go3o3)"
+  ],
+  "gu": [
+    "G_UW_1_(gu1)",
+    "G_UW_2_(gu2)",
+    "G_UW_3_(gu3)"
+  ],
+  "gui": [
+    "G_UW_IY_1_(gui1)",
+    "G_UW_IY_2_(gui2)",
+    "G_UW_IY_3_(gui3)"
+  ],
+  "gum": [
+    "G_UW_M_1_(gum1)",
+    "G_UW_M_2_(gum2)",
+    "G_UW_M_3_(gum3)"
+  ],
+  "gun": [
+    "G_UW_N_1_(gun1)",
+    "G_UW_N_2_(gun2)",
+    "G_UW_N_3_(gun3)"
+  ],
+  "ha": [
+    "HH_AA_1_(ha1)",
+    "HH_AA_2_(ha2)",
+    "HH_AA_3_(ha3)"
+  ],
+  "haa": [
+    "HH_AA_1_AA_1_(ha1a1)",
+    "HH_AA_2_AA_2_(ha2a2)",
+    "HH_AA_3_AA_3_(ha3a3)"
+  ],
+  "hag": [
+    "HH_AA_G_1_(hag1)",
+    "HH_AA_G_2_(hag2)",
+    "HH_AA_G_3_(hag3)"
+  ],
+  "hal": [
+    "HH_AA_L_1_(hal1)",
+    "HH_AA_L_2_(hal2)",
+    "HH_AA_L_3_(hal3)"
+  ],
+  "harn": [
+    "HH_AA_R_N_1_(harn1)",
+    "HH_AA_R_N_2_(harn2)",
+    "HH_AA_R_N_3_(harn3)"
+  ],
+  "hee": [
+    "HH_EY_1_EY_1_(he1e1)",
+    "HH_EY_2_EY_2_(he2e2)",
+    "HH_EY_3_EY_2_(he3e2)"
+  ],
+  "heh": [
+    "HH_EY_HH_1_(heh1)",
+    "HH_EY_HH_2_(heh2)",
+    "HH_EY_HH_3_(heh3)"
+  ],
+  "hinr": [
+    "HH_IY_N_R_1_(hinr1)",
+    "HH_IY_N_R_2_(hinr2)",
+    "HH_IY_N_R_3_(hinr3)"
+  ],
+  "hirp": [
+    "HH_IY_R_P_1_(hirp1)",
+    "HH_IY_R_P_2_(hirp2)",
+    "HH_IY_R_P_3_(hirp3)"
+  ],
+  "ho": [
+    "HH_OW_1_(ho1)",
+    "HH_OW_2_(ho2)",
+    "HH_OW_3_(ho3)"
+  ],
+  "hobr": [
+    "HH_OW_B_R_1_(hobr1)",
+    "HH_OW_B_R_2_(hobr2)",
+    "HH_OW_B_R_3_(hobr3)"
+  ],
+  "ka": [
+    "K_AA_1_(ka1)",
+    "K_AA_2_(ka2)",
+    "K_AA_3_(ka3)"
+  ],
+  "kaangr": [
+    "K_AA_AA_NG_R_1_(kaangr1)",
+    "K_AA_AA_NG_R_2_(kaangr2)",
+    "K_AA_AA_NG_R_3_(kaangr3)"
+  ],
+  "kam": [
+    "K_AA_M_1_(kam1)",
+    "K_AA_M_2_(kam2)",
+    "K_AA_M_3_(kam3)"
+  ],
+  "kan": [
+    "K_AA_N_1_(kan1)",
+    "K_AA_N_2_(kan2)",
+    "K_AA_N_3_(kan3)"
+  ],
+  "kaoor": [
+    "K_AA_1_OW_OW_1_R_(ka1oor1)",
+    "K_AA_2_OW_OW_2_R_(ka2oor2)",
+    "K_AA_3_OW_OW_3_R_(ka3oor3)"
+  ],
+  "kar": [
+    "K_AA_R_1_(kar1)",
+    "K_AA_R_2_(kar2)",
+    "K_AA_R_3_(kar3)"
+  ],
+  "katr": [
+    "K_AA_T_R_1_(katr1)",
+    "K_AA_T_R_2_(katr2)",
+    "K_AA_T_R_3_(katr3)"
+  ],
+  "ke": [
+    "K_EY_1_(ke1)",
+    "K_EY_2_(ke2)",
+    "K_EY_3_(ke3)"
+  ],
+  "kee": [
+    "K_EY_1_EY_2_(ke1e2)",
+    "K_EY_2_EY_2_(ke2e2)",
+    "K_EY_3_EY_2_(ke3e2)"
+  ],
+  "keg": [
+    "K_EY_G_1_(keg1)",
+    "K_EY_G_2_(keg2)",
+    "K_EY_G_3_(keg3)"
+  ],
+  "kell": [
+    "K_EY_L_L_1_(kell1)",
+    "K_EY_L_L_2_(kell2)",
+    "K_EY_L_L_3_(kell3)"
+  ],
+  "ken": [
+    "K_EY_N_1_(ken1)",
+    "K_EY_N_2_(ken2)",
+    "K_EY_N_3_(ken3)"
+  ],
+  "kens": [
+    "K_EY_N_S_1_(kens1)",
+    "K_EY_N_S_2_(kens2)",
+    "K_EY_N_S_3_(kens3)"
+  ],
+  "ki": [
+    "K_IY_1_(ki1)",
+    "K_IY_2_(ki2)",
+    "K_IY_3_(ki3)"
+  ],
+  "kin": [
+    "K_IY_N_1_(kin1)",
+    "K_IY_N_2_(kin2)",
+    "K_IY_N_3_(kin3)"
+  ],
+  "kind": [
+    "K_IY_N_D_1_(kind1)",
+    "K_IY_N_D_2_(kind2)",
+    "K_IY_N_D_3_(kind3)"
+  ],
+  "kir": [
+    "K_IY_R_1_(kir1)",
+    "K_IY_R_2_(kir2)",
+    "K_IY_R_3_(kir3)"
+  ],
+  "ko": [
+    "K_OW_1_(ko1)",
+    "K_OW_2_(ko2)",
+    "K_OW_3_(ko3)"
+  ],
+  "koab": [
+    "K_OW_1_AA_1_B_(ko1ab1)",
+    "K_OW_2_AA_2_B_(ko2ab2)",
+    "K_OW_3_AA_2_B_(ko3ab2)"
+  ],
+  "kol": [
+    "K_OW_L_1_(kol1)",
+    "K_OW_L_2_(kol2)",
+    "K_OW_L_3_(kol3)"
+  ],
+  "kon": [
+    "K_OW_N_1_(kon1)",
+    "K_OW_N_2_(kon2)",
+    "K_OW_N_3_(kon3)"
+  ],
+  "konag": [
+    "K_OW_1_N_AA_1_G_(kon1ag1)",
+    "K_OW_2_N_AA_2_G_(kon2ag2)",
+    "K_OW_3_N_AA_3_G_(kon3ag3)"
+  ],
+  "kortr": [
+    "K_OW_R_T_R_1_(kortr1)",
+    "K_OW_R_T_R_2_(kortr2)",
+    "K_OW_R_T_R_3_(kortr3)"
+  ],
+  "ku": [
+    "K_UW_1_(ku1)",
+    "K_UW_2_(ku2)",
+    "K_UW_3_(ku3)"
+  ],
+  "kud": [
+    "K_UW_D_1_(kud1)",
+    "K_UW_D_2_(kud2)",
+    "K_UW_D_3_(kud3)"
+  ],
+  "kui": [
+    "K_UW_1_IY_1_(ku1i1)",
+    "K_UW_2_IY_2_(ku2i2)",
+    "K_UW_3_IY_2_(ku3i2)"
+  ],
+  "kumb": [
+    "K_UW_M_B_1_(kumb1)",
+    "K_UW_M_B_2_(kumb2)",
+    "K_UW_M_B_3_(kumb3)"
+  ],
+  "kunp": [
+    "K_UW_N_P_1_(kunp1)",
+    "K_UW_N_P_2_(kunp2)",
+    "K_UW_N_P_3_(kunp3)"
+  ],
+  "kuu": [
+    "K_UW_1_UW_1_(ku1u1)",
+    "K_UW_2_UW_2_(ku2u2)",
+    "K_UW_3_UW_2_(ku3u2)"
+  ],
+  "la": [
+    "L_AA_1_(la1)",
+    "L_AA_2_(la2)",
+    "L_AA_3_(la3)"
+  ],
+  "laag": [
+    "L_AA_1_AA_1_G_(la1ag1)",
+    "L_AA_2_AA_2_G_(la2ag2)",
+    "L_AA_3_AA_2_G_(la3ag2)"
+  ],
+  "lalld": [
+    "L_AA_L_L_D_1_(lalld1)",
+    "L_AA_L_L_D_2_(lalld2)",
+    "L_AA_L_L_D_3_(lalld3)"
+  ],
+  "lam": [
+    "L_AA_M_1_(lam1)",
+    "L_AA_M_2_(lam2)",
+    "L_AA_M_3_(lam3)"
+  ],
+  "lan": [
+    "L_AA_N_1_(lan1)",
+    "L_AA_N_2_(lan2)",
+    "L_AA_N_3_(lan3)"
+  ],
+  "lat": [
+    "L_AA_T_1_(lat1)",
+    "L_AA_T_2_(lat2)",
+    "L_AA_T_3_(lat3)"
+  ],
+  "le": [
+    "L_EY_1_(le1)",
+    "L_EY_2_(le2)",
+    "L_EY_3_(le3)"
+  ],
+  "leb": [
+    "L_EY_B_1_(leb1)",
+    "L_EY_B_2_(leb2)",
+    "L_EY_B_3_(leb3)"
+  ],
+  "lebg": [
+    "L_EY_B_G_1_(lebg1)",
+    "L_EY_B_G_2_(lebg2)",
+    "L_EY_B_G_3_(lebg3)"
+  ],
+  "lem": [
+    "L_EY_M_1_(lem1)",
+    "L_EY_M_2_(lem2)",
+    "L_EY_M_3_(lem3)"
+  ],
+  "len": [
+    "L_EY_N_1_(len1)",
+    "L_EY_N_2_(len2)",
+    "L_EY_N_3_(len3)"
+  ],
+  "lep": [
+    "L_EY_P_1_(lep1)",
+    "L_EY_P_2_(lep2)",
+    "L_EY_P_3_(lep3)"
+  ],
+  "lepr": [
+    "L_EY_P_R_1_(lepr1)",
+    "L_EY_P_R_2_(lepr2)",
+    "L_EY_P_R_3_(lepr3)"
+  ],
+  "li": [
+    "L_IY_1_(li1)",
+    "L_IY_2_(li2)",
+    "L_IY_3_(li3)"
+  ],
+  "lib": [
+    "L_IY_B_1_(lib1)",
+    "L_IY_B_2_(lib2)",
+    "L_IY_B_3_(lib3)"
+  ],
+  "lig": [
+    "L_IY_G_1_(lig1)",
+    "L_IY_G_2_(lig2)",
+    "L_IY_G_3_(lig3)"
+  ],
+  "ligd": [
+    "L_IY_G_D_1_(ligd1)",
+    "L_IY_G_D_2_(ligd2)",
+    "L_IY_G_D_3_(ligd3)"
+  ],
+  "lik": [
+    "L_IY_K_1_(lik1)",
+    "L_IY_K_2_(lik2)",
+    "L_IY_K_3_(lik3)"
+  ],
+  "lo": [
+    "L_OW_1_(lo1)",
+    "L_OW_2_(lo2)",
+    "L_OW_3_(lo3)"
+  ],
+  "loaeeg": [
+    "L_OW_AA_2_EY_EY_2_G_(loa2eeg2)"
+  ],
+  "log": [
+    "L_OW_G_1_(log1)",
+    "L_OW_G_2_(log2)",
+    "L_OW_G_3_(log3)"
+  ],
+  "lom": [
+    "L_OW_M_1_(lom1)",
+    "L_OW_M_2_(lom2)",
+    "L_OW_M_3_(lom3)"
+  ],
+  "lui": [
+    "L_UW_IY_1_(lui1)",
+    "L_UW_IY_2_(lui2)",
+    "L_UW_IY_3_(lui3)"
+  ],
+  "lun": [
+    "L_UW_N_1_(lun1)",
+    "L_UW_N_2_(lun2)",
+    "L_UW_N_3_(lun3)"
+  ],
+  "luum": [
+    "L_UW_1_UW_1_M_(lu1um1)",
+    "L_UW_2_UW_2_M_(lu2um2)",
+    "L_UW_3_UW_3_M_(lu3um3)"
+  ],
+  "m": [
+    "EM_1_(m1)",
+    "EM_2_(m2)",
+    "EM_3_(m3)"
+  ],
+  "ma": [
+    "M_AA_1_(ma1)",
+    "M_AA_2_(ma2)",
+    "M_AA_3_(ma3)"
+  ],
+  "maa": [
+    "M_AA_1_AA_1_(ma1a1)",
+    "M_AA_2_AA_2_(ma2a2)",
+    "M_AA_3_AA_2_(ma3a2)",
+    "M_AA_3_AA_3_(ma3a3)"
+  ],
+  "maan": [
+    "M_AA_1_AA_1_N_(ma1an1)",
+    "M_AA_2_AA_2_N_(ma2an2)",
+    "M_AA_3_AA_3_N_(ma3an3)"
+  ],
+  "mam": [
+    "M_AA_M_1_(mam1)",
+    "M_AA_M_2_(mam2)",
+    "M_AA_M_3_(mam3)"
+  ],
+  "man": [
+    "M_AA_N_1_(man1)",
+    "M_AA_N_2_(man2)",
+    "M_AA_N_3_(man3)"
+  ],
+  "mar": [
+    "M_AA_R_1_(mar1)",
+    "M_AA_R_2_(mar2)",
+    "M_AA_R_3_(mar3)"
+  ],
+  "me": [
+    "M_EY_1_(me1)",
+    "M_EY_2_(me2)",
+    "M_EY_3_(me3)"
+  ],
+  "men": [
+    "M_EY_N_1_(men1)",
+    "M_EY_N_2_(men2)",
+    "M_EY_N_3_(men3)"
+  ],
+  "meng": [
+    "M_EY_NG_1_(meng1)",
+    "M_EY_NG_2_(meng2)",
+    "M_EY_NG_3_(meng3)"
+  ],
+  "mhumm": [
+    "M_HH_UW_M_M_1_(mhumm1)",
+    "M_HH_UW_M_M_2_(mhumm2)",
+    "M_HH_UW_M_M_3_(mhumm3)"
+  ],
+  "mi": [
+    "M_IY_1_(mi1)",
+    "M_IY_2_(mi2)",
+    "M_IY_3_(mi3)"
+  ],
+  "mih": [
+    "M_IY_HH_1_(mih1)",
+    "M_IY_HH_2_(mih2)",
+    "M_IY_HH_3_(mih3)"
+  ],
+  "mii": [
+    "M_IY_1_IY_1_(mi1i1)",
+    "M_IY_2_IY_2_(mi2i2)",
+    "M_IY_3_IY_2_(mi3i2)"
+  ],
+  "min": [
+    "M_IY_N_1_(min1)",
+    "M_IY_N_2_(min2)",
+    "M_IY_N_3_(min3)"
+  ],
+  "miuu": [
+    "M_IY_1_UW_UW_1_(mi1uu1)",
+    "M_IY_2_UW_UW_2_(mi2uu2)",
+    "M_IY_3_UW_UW_3_(mi3uu3)"
+  ],
+  "mo": [
+    "M_OW_1_(mo1)",
+    "M_OW_2_(mo2)",
+    "M_OW_3_(mo3)"
+  ],
+  "moaa": [
+    "M_OW_1_AA_AA_2_(mo1aa2)",
+    "M_OW_2_AA_AA_2_(mo2aa2)",
+    "M_OW_3_AA_AA_3_(mo3aa3)"
+  ],
+  "mog": [
+    "M_OW_G_1_(mog1)",
+    "M_OW_G_2_(mog2)",
+    "M_OW_G_3_(mog3)"
+  ],
+  "molf": [
+    "M_OW_L_F_1_(molf1)",
+    "M_OW_L_F_2_(molf2)",
+    "M_OW_L_F_3_(molf3)"
+  ],
+  "mu": [
+    "M_UW_1_(mu1)",
+    "M_UW_2_(mu2)",
+    "M_UW_3_(mu3)"
+  ],
+  "mui": [
+    "M_UW_IY_1_(mui1)",
+    "M_UW_IY_2_(mui2)",
+    "M_UW_IY_3_(mui3)"
+  ],
+  "mus": [
+    "M_UW_S_1_(mus1)",
+    "M_UW_S_2_(mus2)",
+    "M_UW_S_3_(mus3)"
+  ],
+  "n": [
+    "EN_1_(n1)",
+    "EN_2_(n2)",
+    "EN_3_(n3)"
+  ],
+  "na": [
+    "N_AA_1_(na1)",
+    "N_AA_2_(na2)",
+    "N_AA_3_(na3)"
+  ],
+  "naan": [
+    "N_AA_AA_N_1_(naan1)",
+    "N_AA_AA_N_2_(naan2)",
+    "N_AA_AA_N_3_(naan3)"
+  ],
+  "naf": [
+    "N_AA_F_1_(naf1)",
+    "N_AA_F_2_(naf2)",
+    "N_AA_F_3_(naf3)"
+  ],
+  "nafd": [
+    "N_AA_F_D_1_(nafd1)",
+    "N_AA_F_D_2_(nafd2)",
+    "N_AA_F_D_3_(nafd3)"
+  ],
+  "nas": [
+    "N_AA_S_1_(nas1)",
+    "N_AA_S_2_(nas2)",
+    "N_AA_S_3_(nas3)"
+  ],
+  "ne": [
+    "N_EY_1_(ne1)",
+    "N_EY_2_(ne2)",
+    "N_EY_3_(ne3)"
+  ],
+  "ned": [
+    "N_EY_D_1_(ned1)",
+    "N_EY_D_2_(ned2)",
+    "N_EY_D_3_(ned3)"
+  ],
+  "neg": [
+    "N_EY_G_1_(neg1)",
+    "N_EY_G_2_(neg2)",
+    "N_EY_G_3_(neg3)"
+  ],
+  "nen": [
+    "N_EY_N_1_(nen1)",
+    "N_EY_N_2_(nen2)",
+    "N_EY_N_3_(nen3)"
+  ],
+  "neon": [
+    "N_EY_1_OW_1_N_(ne1on1)",
+    "N_EY_2_OW_2_N_(ne2on2)",
+    "N_EY_3_OW_3_N_(ne3on3)"
+  ],
+  "ni": [
+    "N_IY_1_(ni1)",
+    "N_IY_2_(ni2)",
+    "N_IY_3_(ni3)"
+  ],
+  "nif": [
+    "N_IY_F_1_(nif1)",
+    "N_IY_F_2_(nif2)",
+    "N_IY_F_3_(nif3)"
+  ],
+  "nim": [
+    "N_IY_M_1_(nim1)",
+    "N_IY_M_2_(nim2)",
+    "N_IY_M_3_(nim3)"
+  ],
+  "nin": [
+    "N_IY_N_1_(nin1)",
+    "N_IY_N_2_(nin2)",
+    "N_IY_N_3_(nin3)"
+  ],
+  "ning": [
+    "N_IY_NG_1_(ning1)",
+    "N_IY_NG_2_(ning2)",
+    "N_IY_NG_3_(ning3)"
+  ],
+  "nisr": [
+    "N_IY_S_R_1_(nisr1)",
+    "N_IY_S_R_2_(nisr2)",
+    "N_IY_S_R_3_(nisr3)"
+  ],
+  "no": [
+    "N_OW_1_(no1)",
+    "N_OW_2_(no2)",
+    "N_OW_3_(no3)"
+  ],
+  "noaa": [
+    "N_OW_1_AA_AA_1_(no1aa1)",
+    "N_OW_2_AA_AA_2_(no2aa2)",
+    "N_OW_3_AA_AA_2_(no3aa2)"
+  ],
+  "nod": [
+    "N_OW_D_1_(nod1)",
+    "N_OW_D_2_(nod2)",
+    "N_OW_D_3_(nod3)"
+  ],
+  "non": [
+    "N_OW_N_1_(non1)",
+    "N_OW_N_2_(non2)",
+    "N_OW_N_3_(non3)"
+  ],
+  "noo": [
+    "N_OW_1_OW_1_(no1o1)",
+    "N_OW_2_OW_2_(no2o2)",
+    "N_OW_3_OW_2_(no3o2)"
+  ],
+  "nu": [
+    "N_UW_1_(nu1)",
+    "N_UW_2_(nu2)",
+    "N_UW_3_(nu3)"
+  ],
+  "nug": [
+    "N_UW_G_1_(nug1)",
+    "N_UW_G_2_(nug2)",
+    "N_UW_G_3_(nug3)"
+  ],
+  "nun": [
+    "N_UW_N_1_(nun1)",
+    "N_UW_N_2_(nun2)",
+    "N_UW_N_3_(nun3)"
+  ],
+  "od": [
+    "OW_D_1_(od1)",
+    "OW_D_2_(od2)",
+    "OW_D_3_(od3)"
+  ],
+  "on": [
+    "OW_N_1_(on1)",
+    "OW_N_2_(on2)",
+    "OW_N_3_(on3)"
+  ],
+  "oo": [
+    "OW_OW_1_(oo1)",
+    "OW_OW_2_(oo2)",
+    "OW_OW_3_(oo3)"
+  ],
+  "ool": [
+    "OW_OW_L_1_(ool1)",
+    "OW_OW_L_2_(ool2)",
+    "OW_OW_L_3_(ool3)"
+  ],
+  "oos": [
+    "OW_OW_S_1_(oos1)",
+    "OW_OW_S_2_(oos2)",
+    "OW_OW_S_3_(oos3)"
+  ],
+  "pa": [
+    "P_AA_1_(pa1)",
+    "P_AA_2_(pa2)",
+    "P_AA_3_(pa3)"
+  ],
+  "paa": [
+    "P_AA_1_AA_1_(pa1a1)",
+    "P_AA_2_AA_2_(pa2a2)",
+    "P_AA_3_AA_2_(pa3a2)"
+  ],
+  "pad": [
+    "P_AA_D_1_(pad1)",
+    "P_AA_D_2_(pad2)",
+    "P_AA_D_3_(pad3)"
+  ],
+  "pam": [
+    "P_AA_M_1_(pam1)",
+    "P_AA_M_2_(pam2)",
+    "P_AA_M_3_(pam3)"
+  ],
+  "pan": [
+    "P_AA_N_1_(pan1)",
+    "P_AA_N_2_(pan2)",
+    "P_AA_N_3_(pan3)"
+  ],
+  "panr": [
+    "P_AA_N_R_1_(panr1)",
+    "P_AA_N_R_2_(panr2)",
+    "P_AA_N_R_3_(panr3)"
+  ],
+  "pat": [
+    "P_AA_T_1_(pat1)",
+    "P_AA_T_2_(pat2)",
+    "P_AA_T_3_(pat3)"
+  ],
+  "pe": [
+    "P_EY_1_(pe1)",
+    "P_EY_2_(pe2)",
+    "P_EY_3_(pe3)"
+  ],
+  "pee": [
+    "P_EY_1_EY_1_(pe1e1)",
+    "P_EY_2_EY_2_(pe2e2)",
+    "P_EY_3_EY_2_(pe3e2)",
+    "P_EY_3_EY_3_(pe3e3)"
+  ],
+  "peel": [
+    "P_EY_1_EY_1_L_(pe1el1)",
+    "P_EY_2_EY_2_L_(pe2el2)",
+    "P_EY_3_EY_3_L_(pe3el3)"
+  ],
+  "pen": [
+    "P_EY_N_1_(pen1)",
+    "P_EY_N_2_(pen2)",
+    "P_EY_N_3_(pen3)"
+  ],
+  "peng": [
+    "P_EY_NG_1_(peng1)",
+    "P_EY_NG_2_(peng2)",
+    "P_EY_NG_3_(peng3)"
+  ],
+  "per": [
+    "P_EY_R_1_(per1)",
+    "P_EY_R_2_(per2)",
+    "P_EY_R_3_(per3)"
+  ],
+  "pi": [
+    "P_IY_1_(pi1)",
+    "P_IY_2_(pi2)",
+    "P_IY_3_(pi3)"
+  ],
+  "pii": [
+    "P_IY_1_IY_1_(pi1i1)",
+    "P_IY_2_IY_2_(pi2i2)",
+    "P_IY_3_IY_3_(pi3i3)"
+  ],
+  "pis": [
+    "P_IY_S_1_(pis1)",
+    "P_IY_S_2_(pis2)",
+    "P_IY_S_3_(pis3)"
+  ],
+  "poal": [
+    "P_OW_AA_L_1_(poal1)",
+    "P_OW_AA_L_2_(poal2)",
+    "P_OW_AA_L_3_(poal3)"
+  ],
+  "poe": [
+    "P_OW_EY_1_(poe1)",
+    "P_OW_EY_2_(poe2)",
+    "P_OW_EY_3_(poe3)"
+  ],
+  "pok": [
+    "P_OW_K_1_(pok1)",
+    "P_OW_K_2_(pok2)",
+    "P_OW_K_3_(pok3)"
+  ],
+  "pol": [
+    "P_OW_L_1_(pol1)",
+    "P_OW_L_2_(pol2)",
+    "P_OW_L_3_(pol3)"
+  ],
+  "poo": [
+    "P_OW_1_OW_2_(po1o2)",
+    "P_OW_2_OW_2_(po2o2)",
+    "P_OW_3_OW_3_(po3o3)"
+  ],
+  "pu": [
+    "P_UW_1_(pu1)",
+    "P_UW_2_(pu2)",
+    "P_UW_3_(pu3)"
+  ],
+  "pug": [
+    "P_UW_G_1_(pug1)",
+    "P_UW_G_2_(pug2)",
+    "P_UW_G_3_(pug3)"
+  ],
+  "pugdb": [
+    "P_UW_G_D_B_1_(pugdb1)",
+    "P_UW_G_D_B_2_(pugdb2)",
+    "P_UW_G_D_B_3_(pugdb3)"
+  ],
+  "pundg": [
+    "P_UW_N_D_G_1_(pundg1)",
+    "P_UW_N_D_G_2_(pundg2)",
+    "P_UW_N_D_G_3_(pundg3)"
+  ],
+  "puu": [
+    "P_UW_1_UW_1_(pu1u1)",
+    "P_UW_2_UW_2_(pu2u2)",
+    "P_UW_3_UW_2_(pu3u2)"
+  ],
+  "puus": [
+    "P_UW_1_UW_1_S_(pu1us1)",
+    "P_UW_2_UW_2_S_(pu2us2)",
+    "P_UW_3_UW_2_S_(pu3us2)"
+  ],
+  "ra": [
+    "R_AA_1_(ra1)",
+    "R_AA_2_(ra2)",
+    "R_AA_3_(ra3)"
+  ],
+  "rab": [
+    "R_AA_B_1_(rab1)",
+    "R_AA_B_2_(rab2)",
+    "R_AA_B_3_(rab3)"
+  ],
+  "ran": [
+    "R_AA_N_1_(ran1)",
+    "R_AA_N_2_(ran2)",
+    "R_AA_N_3_(ran3)"
+  ],
+  "rans": [
+    "R_AA_N_S_1_(rans1)",
+    "R_AA_N_S_2_(rans2)",
+    "R_AA_N_S_3_(rans3)"
+  ],
+  "raoo": [
+    "R_AA_1_OW_OW_1_(ra1oo1)",
+    "R_AA_2_OW_OW_2_(ra2oo2)",
+    "R_AA_3_OW_OW_2_(ra3oo2)"
+  ],
+  "re": [
+    "R_EY_1_(re1)",
+    "R_EY_2_(re2)",
+    "R_EY_3_(re3)"
+  ],
+  "ree": [
+    "R_EY_1_EY_2_(re1e2)",
+    "R_EY_2_EY_2_(re2e2)",
+    "R_EY_3_EY_2_(re3e2)"
+  ],
+  "reemb": [
+    "R_EY_1_EY_1_M_B_(re1emb1)",
+    "R_EY_2_EY_2_M_B_(re2emb2)",
+    "R_EY_3_EY_3_M_B_(re3emb3)"
+  ],
+  "rem": [
+    "R_EY_M_1_(rem1)",
+    "R_EY_M_2_(rem2)",
+    "R_EY_M_3_(rem3)"
+  ],
+  "ren": [
+    "R_EY_N_1_(ren1)",
+    "R_EY_N_2_(ren2)",
+    "R_EY_N_3_(ren3)"
+  ],
+  "reng": [
+    "R_EY_NG_1_(reng1)",
+    "R_EY_NG_2_(reng2)",
+    "R_EY_NG_3_(reng3)"
+  ],
+  "ri": [
+    "R_IY_1_(ri1)",
+    "R_IY_2_(ri2)",
+    "R_IY_3_(ri3)"
+  ],
+  "rib": [
+    "R_IY_B_1_(rib1)",
+    "R_IY_B_2_(rib2)",
+    "R_IY_B_3_(rib3)"
+  ],
+  "rien": [
+    "R_IY_EY_N_1_(rien1)",
+    "R_IY_EY_N_2_(rien2)",
+    "R_IY_EY_N_3_(rien3)"
+  ],
+  "rii": [
+    "R_IY_1_IY_1_(ri1i1)",
+    "R_IY_2_IY_2_(ri2i2)",
+    "R_IY_3_IY_3_(ri3i3)"
+  ],
+  "riin": [
+    "R_IY_1_IY_1_N_(ri1in1)",
+    "R_IY_2_IY_2_N_(ri2in2)",
+    "R_IY_3_IY_3_N_(ri3in3)"
+  ],
+  "rik": [
+    "R_IY_K_1_(rik1)",
+    "R_IY_K_2_(rik2)",
+    "R_IY_K_3_(rik3)"
+  ],
+  "riut": [
+    "R_IY_UW_T_1_(riut1)",
+    "R_IY_UW_T_2_(riut2)",
+    "R_IY_UW_T_3_(riut3)"
+  ],
+  "ron": [
+    "R_OW_N_1_(ron1)",
+    "R_OW_N_2_(ron2)",
+    "R_OW_N_3_(ron3)"
+  ],
+  "ronan": [
+    "R_OW_1_N_AA_1_N_(ron1an1)",
+    "R_OW_2_N_AA_2_N_(ron2an2)",
+    "R_OW_3_N_AA_3_N_(ron3an3)"
+  ],
+  "roo": [
+    "R_OW_1_OW_1_(ro1o1)",
+    "R_OW_1_OW_2_(ro1o2)",
+    "R_OW_2_OW_2_(ro2o2)",
+    "R_OW_3_OW_3_(ro3o3)"
+  ],
+  "roon": [
+    "R_OW_1_OW_1_N_(ro1on1)",
+    "R_OW_2_OW_2_N_(ro2on2)",
+    "R_OW_3_OW_3_N_(ro3on3)"
+  ],
+  "ru": [
+    "R_UW_1_(ru1)",
+    "R_UW_2_(ru2)",
+    "R_UW_3_(ru3)"
+  ],
+  "runm": [
+    "R_UW_N_M_1_(runm1)",
+    "R_UW_N_M_2_(runm2)",
+    "R_UW_N_M_3_(runm3)"
+  ],
+  "ruu": [
+    "R_UW_1_UW_1_(ru1u1)",
+    "R_UW_2_UW_2_(ru2u2)",
+    "R_UW_3_UW_3_(ru3u3)"
+  ],
+  "ruud": [
+    "R_UW_1_UW_1_D_(ru1ud1)",
+    "R_UW_2_UW_2_D_(ru2ud2)",
+    "R_UW_3_UW_2_D_(ru3ud2)"
+  ],
+  "saam": [
+    "S_AA_1_AA_1_M_(sa1am1)",
+    "S_AA_2_AA_2_M_(sa2am2)",
+    "S_AA_3_AA_3_M_(sa3am3)"
+  ],
+  "saan": [
+    "S_AA_1_AA_1_N_(sa1an1)",
+    "S_AA_2_AA_2_N_(sa2an2)",
+    "S_AA_3_AA_2_N_(sa3an2)"
+  ],
+  "saang": [
+    "S_AA_1_AA_1_NG_(sa1ang1)",
+    "S_AA_2_AA_2_NG_(sa2ang2)",
+    "S_AA_3_AA_3_NG_(sa3ang3)"
+  ],
+  "sag": [
+    "S_AA_G_1_(sag1)",
+    "S_AA_G_2_(sag2)",
+    "S_AA_G_3_(sag3)"
+  ],
+  "saglg": [
+    "S_AA_G_L_G_1_(saglg1)",
+    "S_AA_G_L_G_2_(saglg2)",
+    "S_AA_G_L_G_3_(saglg3)"
+  ],
+  "san": [
+    "S_AA_N_1_(san1)",
+    "S_AA_N_2_(san2)",
+    "S_AA_N_3_(san3)"
+  ],
+  "se": [
+    "S_EY_1_(se1)",
+    "S_EY_2_(se2)",
+    "S_EY_3_(se3)"
+  ],
+  "seb": [
+    "S_EY_B_1_(seb1)",
+    "S_EY_B_2_(seb2)",
+    "S_EY_B_3_(seb3)"
+  ],
+  "see": [
+    "S_EY_1_EY_2_(se1e2)",
+    "S_EY_2_EY_2_(se2e2)",
+    "S_EY_3_EY_2_(se3e2)"
+  ],
+  "sen": [
+    "S_EY_N_1_(sen1)",
+    "S_EY_N_2_(sen2)",
+    "S_EY_N_3_(sen3)"
+  ],
+  "senb": [
+    "S_EY_N_B_1_(senb1)",
+    "S_EY_N_B_2_(senb2)",
+    "S_EY_N_B_3_(senb3)"
+  ],
+  "set": [
+    "S_EY_T_1_(set1)",
+    "S_EY_T_2_(set2)",
+    "S_EY_T_3_(set3)"
+  ],
+  "si": [
+    "S_IY_1_(si1)",
+    "S_IY_2_(si2)",
+    "S_IY_3_(si3)"
+  ],
+  "sid": [
+    "S_IY_D_1_(sid1)",
+    "S_IY_D_2_(sid2)",
+    "S_IY_D_3_(sid3)"
+  ],
+  "sil": [
+    "S_IY_L_1_(sil1)",
+    "S_IY_L_2_(sil2)",
+    "S_IY_L_3_(sil3)"
+  ],
+  "sind": [
+    "S_IY_N_D_1_(sind1)",
+    "S_IY_N_D_2_(sind2)",
+    "S_IY_N_D_3_(sind3)"
+  ],
+  "sobg": [
+    "S_OW_B_G_1_(sobg1)",
+    "S_OW_B_G_2_(sobg2)",
+    "S_OW_B_G_3_(sobg3)"
+  ],
+  "song": [
+    "S_OW_NG_1_(song1)",
+    "S_OW_NG_2_(song2)",
+    "S_OW_NG_3_(song3)"
+  ],
+  "sonm": [
+    "S_OW_N_M_1_(sonm1)",
+    "S_OW_N_M_2_(sonm2)",
+    "S_OW_N_M_3_(sonm3)"
+  ],
+  "su": [
+    "S_UW_1_(su1)",
+    "S_UW_2_(su2)",
+    "S_UW_3_(su3)"
+  ],
+  "suk": [
+    "S_UW_K_1_(suk1)",
+    "S_UW_K_2_(suk2)",
+    "S_UW_K_3_(suk3)"
+  ],
+  "sulg": [
+    "S_UW_L_G_1_(sulg1)",
+    "S_UW_L_G_2_(sulg2)",
+    "S_UW_L_G_3_(sulg3)"
+  ],
+  "sum": [
+    "S_UW_M_1_(sum1)",
+    "S_UW_M_2_(sum2)",
+    "S_UW_M_3_(sum3)"
+  ],
+  "sun": [
+    "S_UW_N_1_(sun1)",
+    "S_UW_N_2_(sun2)",
+    "S_UW_N_3_(sun3)"
+  ],
+  "ta": [
+    "T_AA_1_(ta1)",
+    "T_AA_2_(ta2)",
+    "T_AA_3_(ta3)"
+  ],
+  "tab": [
+    "T_AA_B_1_(tab1)",
+    "T_AA_B_2_(tab2)",
+    "T_AA_B_3_(tab3)"
+  ],
+  "tan": [
+    "T_AA_N_1_(tan1)",
+    "T_AA_N_2_(tan2)",
+    "T_AA_N_3_(tan3)"
+  ],
+  "taoo": [
+    "T_AA_1_OW_OW_1_(ta1oo1)",
+    "T_AA_2_OW_OW_2_(ta2oo2)",
+    "T_AA_3_OW_OW_3_(ta3oo3)"
+  ],
+  "tar": [
+    "T_AA_R_1_(tar1)",
+    "T_AA_R_2_(tar2)",
+    "T_AA_R_3_(tar3)"
+  ],
+  "teag": [
+    "T_EY_1_AA_1_G_(te1ag1)",
+    "T_EY_2_AA_2_G_(te2ag2)",
+    "T_EY_3_AA_3_G_(te3ag3)"
+  ],
+  "tee": [
+    "T_EY_1_EY_1_(te1e1)",
+    "T_EY_2_EY_2_(te2e2)",
+    "T_EY_3_EY_2_(te3e2)"
+  ],
+  "teeg": [
+    "T_EY_EY_G_1_(teeg1)",
+    "T_EY_EY_G_2_(teeg2)",
+    "T_EY_EY_G_3_(teeg3)"
+  ],
+  "tel": [
+    "T_EY_L_1_(tel1)",
+    "T_EY_L_2_(tel2)",
+    "T_EY_L_3_(tel3)"
+  ],
+  "ti": [
+    "T_IY_1_(ti1)",
+    "T_IY_2_(ti2)",
+    "T_IY_3_(ti3)"
+  ],
+  "tig": [
+    "T_IY_G_1_(tig1)",
+    "T_IY_G_2_(tig2)",
+    "T_IY_G_3_(tig3)"
+  ],
+  "tii": [
+    "T_IY_1_IY_1_(ti1i1)",
+    "T_IY_2_IY_2_(ti2i2)",
+    "T_IY_3_IY_2_(ti3i2)"
+  ],
+  "tin": [
+    "T_IY_N_1_(tin1)",
+    "T_IY_N_2_(tin2)",
+    "T_IY_N_3_(tin3)"
+  ],
+  "to": [
+    "T_OW_1_(to1)",
+    "T_OW_2_(to2)",
+    "T_OW_3_(to3)"
+  ],
+  "tog": [
+    "T_OW_G_1_(tog1)",
+    "T_OW_G_2_(tog2)",
+    "T_OW_G_3_(tog3)"
+  ],
+  "togs": [
+    "T_OW_G_S_1_(togs1)",
+    "T_OW_G_S_2_(togs2)",
+    "T_OW_G_S_3_(togs3)"
+  ],
+  "tonb": [
+    "T_OW_N_B_1_(tonb1)",
+    "T_OW_N_B_2_(tonb2)",
+    "T_OW_N_B_3_(tonb3)"
+  ],
+  "tui": [
+    "T_UW_1_IY_1_(tu1i1)",
+    "T_UW_2_IY_2_(tu2i2)",
+    "T_UW_3_IY_3_(tu3i3)"
+  ],
+  "tul": [
+    "T_UW_L_1_(tul1)",
+    "T_UW_L_2_(tul2)",
+    "T_UW_L_3_(tul3)"
+  ],
+  "tun": [
+    "T_UW_N_1_(tun1)",
+    "T_UW_N_2_(tun2)",
+    "T_UW_N_3_(tun3)"
+  ],
+  "tusb": [
+    "T_UW_S_B_1_(tusb1)",
+    "T_UW_S_B_2_(tusb2)",
+    "T_UW_S_B_3_(tusb3)"
+  ],
+  "tuug": [
+    "T_UW_UW_G_1_(tuug1)",
+    "T_UW_UW_G_2_(tuug2)",
+    "T_UW_UW_G_3_(tuug3)"
+  ],
+  "tuul": [
+    "T_UW_UW_L_1_(tuul1)",
+    "T_UW_UW_L_2_(tuul2)",
+    "T_UW_UW_L_3_(tuul3)"
+  ],
+  "tuulg": [
+    "T_UW_UW_L_G_1_(tuulg1)",
+    "T_UW_UW_L_G_2_(tuulg2)",
+    "T_UW_UW_L_G_3_(tuulg3)"
+  ],
+  "un": [
+    "UW_N_1_(un1)",
+    "UW_N_2_(un2)",
+    "UW_N_3_(un3)"
+  ],
+  "uu": [
+    "UW_UW_1_(uu1)",
+    "UW_UW_2_(uu2)",
+    "UW_UW_3_(uu3)"
+  ],
+  "vaa": [
+    "V_AA_1_AA_1_(va1a1)",
+    "V_AA_2_AA_2_(va2a2)",
+    "V_AA_3_AA_3_(va3a3)",
+    "V_AA_AA_1_(vaa1)",
+    "V_AA_AA_2_(vaa2)",
+    "V_AA_AA_3_(vaa3)"
+  ],
+  "val": [
+    "V_AA_L_1_(val1)",
+    "V_AA_L_2_(val2)",
+    "V_AA_L_3_(val3)"
+  ],
+  "van": [
+    "V_AA_N_1_(van1)",
+    "V_AA_N_2_(van2)",
+    "V_AA_N_3_(van3)"
+  ],
+  "vanb": [
+    "V_AA_N_B_1_(vanb1)",
+    "V_AA_N_B_2_(vanb2)",
+    "V_AA_N_B_3_(vanb3)"
+  ],
+  "vanoo": [
+    "V_AA_1_N_OW_OW_1_(van1oo1)",
+    "V_AA_2_N_OW_OW_2_(van2oo2)",
+    "V_AA_3_N_OW_OW_2_(van3oo2)"
+  ],
+  "var": [
+    "V_AA_R_1_(var1)",
+    "V_AA_R_2_(var2)",
+    "V_AA_R_3_(var3)"
+  ],
+  "ve": [
+    "V_EY_1_(ve1)",
+    "V_EY_2_(ve2)",
+    "V_EY_3_(ve3)"
+  ],
+  "vee": [
+    "V_EY_1_EY_2_(ve1e2)",
+    "V_EY_2_EY_2_(ve2e2)",
+    "V_EY_3_EY_3_(ve3e3)"
+  ],
+  "veen": [
+    "V_EY_1_EY_1_N_(ve1en1)",
+    "V_EY_2_EY_2_N_(ve2en2)",
+    "V_EY_3_EY_2_N_(ve3en2)"
+  ],
+  "venen": [
+    "V_EY_1_N_EY_1_N_(ven1en1)",
+    "V_EY_2_N_EY_2_N_(ven2en2)",
+    "V_EY_3_N_EY_2_N_(ven3en2)"
+  ],
+  "venkr": [
+    "V_EY_N_K_R_1_(venkr1)",
+    "V_EY_N_K_R_2_(venkr2)",
+    "V_EY_N_K_R_3_(venkr3)"
+  ],
+  "vi": [
+    "V_IY_1_(vi1)",
+    "V_IY_2_(vi2)",
+    "V_IY_3_(vi3)"
+  ],
+  "vii": [
+    "V_IY_1_IY_1_(vi1i1)",
+    "V_IY_2_IY_2_(vi2i2)",
+    "V_IY_3_IY_2_(vi3i2)"
+  ],
+  "vin": [
+    "V_IY_N_1_(vin1)",
+    "V_IY_N_2_(vin2)",
+    "V_IY_N_3_(vin3)"
+  ],
+  "viuu": [
+    "V_IY_3_UW_UW_2_(vi3uu2)"
+  ],
+  "voak": [
+    "V_OW_1_AA_1_K_(vo1ak1)",
+    "V_OW_2_AA_2_K_(vo2ak2)",
+    "V_OW_3_AA_3_K_(vo3ak3)"
+  ],
+  "von": [
+    "V_OW_N_1_(von1)",
+    "V_OW_N_2_(von2)",
+    "V_OW_N_3_(von3)"
+  ],
+  "vonlb": [
+    "V_OW_N_L_B_1_(vonlb1)",
+    "V_OW_N_L_B_2_(vonlb2)",
+    "V_OW_N_L_B_3_(vonlb3)"
+  ],
+  "voo": [
+    "V_OW_1_OW_1_(vo1o1)",
+    "V_OW_2_OW_2_(vo2o2)",
+    "V_OW_3_OW_2_(vo3o2)"
+  ],
+  "vu": [
+    "V_UW_1_(vu1)",
+    "V_UW_2_(vu2)",
+    "V_UW_3_(vu3)"
+  ],
+  "vud": [
+    "V_UW_D_1_(vud1)",
+    "V_UW_D_2_(vud2)",
+    "V_UW_D_3_(vud3)"
+  ],
+  "vun": [
+    "V_UW_N_1_(vun1)",
+    "V_UW_N_2_(vun2)",
+    "V_UW_N_3_(vun3)"
+  ],
+  "vunug": [
+    "V_UW_1_N_UW_1_G_(vun1ug1)",
+    "V_UW_2_N_UW_2_G_(vun2ug2)"
+  ],
+  "vuu": [
+    "V_UW_1_UW_1_(vu1u1)",
+    "V_UW_2_UW_2_(vu2u2)",
+    "V_UW_3_UW_2_(vu3u2)"
+  ],
+  "wa": [
+    "W_AA_1_(wa1)",
+    "W_AA_2_(wa2)",
+    "W_AA_3_(wa3)"
+  ],
+  "waan": [
+    "W_AA_1_AA_1_N_(wa1an1)",
+    "W_AA_2_AA_2_N_(wa2an2)",
+    "W_AA_3_AA_2_N_(wa3an2)"
+  ],
+  "wak": [
+    "W_AA_K_1_(wak1)",
+    "W_AA_K_2_(wak2)",
+    "W_AA_K_3_(wak3)"
+  ],
+  "wan": [
+    "W_AA_N_1_(wan1)",
+    "W_AA_N_2_(wan2)",
+    "W_AA_N_3_(wan3)"
+  ],
+  "wanbd": [
+    "W_AA_N_B_D_1_(wanbd1)",
+    "W_AA_N_B_D_2_(wanbd2)",
+    "W_AA_N_B_D_3_(wanbd3)"
+  ],
+  "wao": [
+    "W_AA_OW_1_(wao1)",
+    "W_AA_OW_2_(wao2)",
+    "W_AA_OW_3_(wao3)"
+  ],
+  "warg": [
+    "W_AA_R_G_1_(warg1)",
+    "W_AA_R_G_2_(warg2)",
+    "W_AA_R_G_3_(warg3)"
+  ],
+  "we": [
+    "W_EY_1_(we1)",
+    "W_EY_2_(we2)",
+    "W_EY_3_(we3)"
+  ],
+  "wed": [
+    "W_EY_D_1_(wed1)",
+    "W_EY_D_2_(wed2)",
+    "W_EY_D_3_(wed3)"
+  ],
+  "wee": [
+    "W_EY_1_EY_1_(we1e1)",
+    "W_EY_2_EY_2_(we2e2)",
+    "W_EY_3_EY_3_(we3e3)"
+  ],
+  "wen": [
+    "W_EY_N_1_(wen1)",
+    "W_EY_N_2_(wen2)",
+    "W_EY_N_3_(wen3)"
+  ],
+  "weng": [
+    "W_EY_NG_1_(weng1)",
+    "W_EY_NG_2_(weng2)",
+    "W_EY_NG_3_(weng3)"
+  ],
+  "wenp": [
+    "W_EY_N_P_1_(wenp1)",
+    "W_EY_N_P_2_(wenp2)",
+    "W_EY_N_P_3_(wenp3)"
+  ],
+  "weoo": [
+    "W_EY_1_OW_OW_1_(we1oo1)",
+    "W_EY_2_OW_OW_2_(we2oo2)",
+    "W_EY_3_OW_OW_3_(we3oo3)"
+  ],
+  "widb": [
+    "W_IY_D_B_1_(widb1)",
+    "W_IY_D_B_2_(widb2)",
+    "W_IY_D_B_3_(widb3)"
+  ],
+  "widg": [
+    "W_IY_D_G_1_(widg1)",
+    "W_IY_D_G_2_(widg2)",
+    "W_IY_D_G_3_(widg3)"
+  ],
+  "wii": [
+    "W_IY_1_IY_1_(wi1i1)",
+    "W_IY_2_IY_2_(wi2i2)",
+    "W_IY_3_IY_3_(wi3i3)"
+  ],
+  "wob": [
+    "W_OW_B_1_(wob1)",
+    "W_OW_B_2_(wob2)",
+    "W_OW_B_3_(wob3)"
+  ],
+  "wong": [
+    "W_OW_NG_1_(wong1)",
+    "W_OW_NG_2_(wong2)",
+    "W_OW_NG_3_(wong3)"
+  ],
+  "wubs": [
+    "W_UW_B_S_1_(wubs1)",
+    "W_UW_B_S_2_(wubs2)",
+    "W_UW_B_S_3_(wubs3)"
+  ],
+  "wuk": [
+    "W_UW_K_1_(wuk1)",
+    "W_UW_K_2_(wuk2)",
+    "W_UW_K_3_(wuk3)"
+  ],
+  "wun": [
+    "W_UW_N_1_(wun1)",
+    "W_UW_N_2_(wun2)",
+    "W_UW_N_3_(wun3)"
+  ],
+  "wus": [
+    "W_UW_S_1_(wus1)",
+    "W_UW_S_2_(wus2)",
+    "W_UW_S_3_(wus3)"
+  ],
+  "wusg": [
+    "W_UW_S_G_1_(wusg1)",
+    "W_UW_S_G_2_(wusg2)",
+    "W_UW_S_G_3_(wusg3)"
+  ],
+  "y": [
+    "Y_1_(y1)",
+    "Y_2_(y2)",
+    "Y_3_(y3)"
+  ],
+  "yaa": [
+    "Y_AA_1_AA_1_(ya1a1)",
+    "Y_AA_2_AA_2_(ya2a2)",
+    "Y_AA_3_AA_3_(ya3a3)"
+  ],
+  "yaab": [
+    "Y_AA_1_AA_1_B_(ya1ab1)",
+    "Y_AA_2_AA_2_B_(ya2ab2)",
+    "Y_AA_3_AA_3_B_(ya3ab3)"
+  ],
+  "yaaf": [
+    "Y_AA_1_AA_2_F_(ya1af2)",
+    "Y_AA_2_AA_2_F_(ya2af2)",
+    "Y_AA_3_AA_3_F_(ya3af3)"
+  ],
+  "yaan": [
+    "Y_AA_1_AA_1_N_(ya1an1)",
+    "Y_AA_2_AA_2_N_(ya2an2)",
+    "Y_AA_3_AA_2_N_(ya3an2)"
+  ],
+  "yaar": [
+    "Y_AA_1_AA_1_R_(ya1ar1)",
+    "Y_AA_2_AA_2_R_(ya2ar2)",
+    "Y_AA_3_AA_3_R_(ya3ar3)"
+  ],
+  "yag": [
+    "Y_AA_G_1_(yag1)",
+    "Y_AA_G_2_(yag2)",
+    "Y_AA_G_3_(yag3)"
+  ],
+  "yams": [
+    "Y_AA_M_S_1_(yams1)",
+    "Y_AA_M_S_2_(yams2)",
+    "Y_AA_M_S_3_(yams3)"
+  ],
+  "yan": [
+    "Y_AA_N_1_(yan1)",
+    "Y_AA_N_2_(yan2)",
+    "Y_AA_N_3_(yan3)"
+  ],
+  "yanoo": [
+    "Y_AA_1_N_OW_OW_1_(yan1oo1)",
+    "Y_AA_2_N_OW_OW_2_(yan2oo2)",
+    "Y_AA_3_N_OW_OW_3_(yan3oo3)"
+  ],
+  "yao": [
+    "Y_AA_1_OW_1_(ya1o1)",
+    "Y_AA_2_OW_2_(ya2o2)",
+    "Y_AA_3_OW_2_(ya3o2)"
+  ],
+  "ye": [
+    "Y_EY_1_(ye1)",
+    "Y_EY_2_(ye2)",
+    "Y_EY_3_(ye3)"
+  ],
+  "yee": [
+    "Y_EY_1_EY_2_(ye1e2)",
+    "Y_EY_2_EY_2_(ye2e2)",
+    "Y_EY_3_EY_2_(ye3e2)"
+  ],
+  "yeel": [
+    "Y_EY_1_EY_1_L_(ye1el1)",
+    "Y_EY_2_EY_2_L_(ye2el2)",
+    "Y_EY_3_EY_3_L_(ye3el3)"
+  ],
+  "yel": [
+    "Y_EY_L_1_(yel1)",
+    "Y_EY_L_2_(yel2)",
+    "Y_EY_L_3_(yel3)"
+  ],
+  "yem": [
+    "Y_EY_M_1_(yem1)",
+    "Y_EY_M_2_(yem2)",
+    "Y_EY_M_3_(yem3)"
+  ],
+  "yend": [
+    "Y_EY_N_D_1_(yend1)",
+    "Y_EY_N_D_2_(yend2)",
+    "Y_EY_N_D_3_(yend3)"
+  ],
+  "yens": [
+    "Y_EY_N_S_1_(yens1)",
+    "Y_EY_N_S_2_(yens2)",
+    "Y_EY_N_S_3_(yens3)"
+  ],
+  "yer": [
+    "Y_EY_R_1_(yer1)",
+    "Y_EY_R_2_(yer2)",
+    "Y_EY_R_3_(yer3)"
+  ],
+  "yes": [
+    "Y_EY_S_1_(yes1)",
+    "Y_EY_S_2_(yes2)",
+    "Y_EY_S_3_(yes3)"
+  ],
+  "yi": [
+    "Y_IY_1_(yi1)",
+    "Y_IY_2_(yi2)",
+    "Y_IY_3_(yi3)"
+  ],
+  "yib": [
+    "Y_IY_B_1_(yib1)",
+    "Y_IY_B_2_(yib2)",
+    "Y_IY_B_3_(yib3)"
+  ],
+  "yiis": [
+    "Y_IY_IY_S_1_(yiis1)",
+    "Y_IY_IY_S_2_(yiis2)",
+    "Y_IY_IY_S_3_(yiis3)"
+  ],
+  "yik": [
+    "Y_IY_K_1_(yik1)",
+    "Y_IY_K_2_(yik2)",
+    "Y_IY_K_3_(yik3)"
+  ],
+  "yin": [
+    "Y_IY_N_1_(yin1)",
+    "Y_IY_N_2_(yin2)",
+    "Y_IY_N_3_(yin3)"
+  ],
+  "yint": [
+    "Y_IY_N_T_1_(yint1)",
+    "Y_IY_N_T_2_(yint2)",
+    "Y_IY_N_T_3_(yint3)"
+  ],
+  "yo": [
+    "Y_OW_1_(yo1)",
+    "Y_OW_2_(yo2)",
+    "Y_OW_3_(yo3)"
+  ],
+  "yoaab": [
+    "Y_OW_1_AA_AA_3_B_(yo1aab3)"
+  ],
+  "yolg": [
+    "Y_OW_L_G_1_(yolg1)",
+    "Y_OW_L_G_2_(yolg2)",
+    "Y_OW_L_G_3_(yolg3)"
+  ],
+  "yon": [
+    "Y_OW_N_1_(yon1)",
+    "Y_OW_N_2_(yon2)",
+    "Y_OW_N_3_(yon3)"
+  ],
+  "yor": [
+    "Y_OW_R_1_(yor1)",
+    "Y_OW_R_2_(yor2)",
+    "Y_OW_R_3_(yor3)"
+  ],
+  "yuddd": [
+    "Y_UW_D_D_D_1_(yuddd1)",
+    "Y_UW_D_D_D_2_(yuddd2)",
+    "Y_UW_D_D_D_3_(yuddd3)"
+  ],
+  "yun": [
+    "Y_UW_N_1_(yun1)",
+    "Y_UW_N_2_(yun2)",
+    "Y_UW_N_3_(yun3)"
+  ],
+  "yuu": [
+    "Y_UW_1_UW_1_(yu1u1)",
+    "Y_UW_2_UW_2_(yu2u2)",
+    "Y_UW_3_UW_2_(yu3u2)",
+    "Y_UW_3_UW_3_(yu3u3)",
+    "Y_UW_UW_1_(yuu1)",
+    "Y_UW_UW_2_(yuu2)",
+    "Y_UW_UW_3_(yuu3)"
+  ],
+  "yuud": [
+    "Y_UW_1_UW_1_D_(yu1ud1)",
+    "Y_UW_2_UW_2_D_(yu2ud2)",
+    "Y_UW_3_UW_3_D_(yu3ud3)"
+  ],
+  "yuug": [
+    "Y_UW_1_UW_1_G_(yu1ug1)",
+    "Y_UW_2_UW_2_G_(yu2ug2)",
+    "Y_UW_3_UW_2_G_(yu3ug2)"
+  ],
+  "yuum": [
+    "Y_UW_1_UW_2_M_(yu1um2)",
+    "Y_UW_2_UW_2_M_(yu2um2)",
+    "Y_UW_3_UW_3_M_(yu3um3)"
+  ],
+  "za": [
+    "Z_AA_1_(za1)",
+    "Z_AA_2_(za2)",
+    "Z_AA_3_(za3)"
+  ],
+  "zaa": [
+    "Z_AA_1_AA_1_(za1a1)",
+    "Z_AA_2_AA_2_(za2a2)",
+    "Z_AA_3_AA_3_(za3a3)"
+  ],
+  "zaab": [
+    "Z_AA_1_AA_2_B_(za1ab2)",
+    "Z_AA_2_AA_2_B_(za2ab2)",
+    "Z_AA_3_AA_3_B_(za3ab3)"
+  ],
+  "zaabr": [
+    "Z_AA_AA_B_R_1_(zaabr1)",
+    "Z_AA_AA_B_R_2_(zaabr2)",
+    "Z_AA_AA_B_R_3_(zaabr3)"
+  ],
+  "zak": [
+    "Z_AA_K_1_(zak1)",
+    "Z_AA_K_2_(zak2)",
+    "Z_AA_K_3_(zak3)"
+  ],
+  "zan": [
+    "Z_AA_N_1_(zan1)",
+    "Z_AA_N_2_(zan2)",
+    "Z_AA_N_3_(zan3)"
+  ],
+  "ze": [
+    "Z_EY_1_(ze1)",
+    "Z_EY_2_(ze2)",
+    "Z_EY_3_(ze3)"
+  ],
+  "zee": [
+    "Z_EY_1_EY_1_(ze1e1)",
+    "Z_EY_2_EY_2_(ze2e2)",
+    "Z_EY_3_EY_2_(ze3e2)",
+    "Z_EY_3_EY_3_(ze3e3)"
+  ],
+  "zeend": [
+    "Z_EY_EY_N_D_1_(zeend1)",
+    "Z_EY_EY_N_D_2_(zeend2)",
+    "Z_EY_EY_N_D_3_(zeend3)"
+  ],
+  "zi": [
+    "Z_IY_1_(zi1)",
+    "Z_IY_2_(zi2)",
+    "Z_IY_3_(zi3)"
+  ],
+  "zii": [
+    "Z_IY_1_IY_1_(zi1i1)",
+    "Z_IY_2_IY_2_(zi2i2)",
+    "Z_IY_3_IY_3_(zi3i3)"
+  ],
+  "zil": [
+    "Z_IY_L_1_(zil1)",
+    "Z_IY_L_2_(zil2)",
+    "Z_IY_L_3_(zil3)"
+  ],
+  "zin": [
+    "Z_IY_N_1_(zin1)",
+    "Z_IY_N_2_(zin2)",
+    "Z_IY_N_3_(zin3)"
+  ],
+  "zit": [
+    "Z_IY_T_1_(zit1)",
+    "Z_IY_T_2_(zit2)",
+    "Z_IY_T_3_(zit3)"
+  ],
+  "ziun": [
+    "Z_IY_1_UW_1_N_(zi1un1)",
+    "Z_IY_2_UW_2_N_(zi2un2)",
+    "Z_IY_3_UW_3_N_(zi3un3)"
+  ],
+  "zo": [
+    "Z_OW_1_(zo1)",
+    "Z_OW_2_(zo2)",
+    "Z_OW_3_(zo3)"
+  ],
+  "zoe": [
+    "Z_OW_EY_1_(zoe1)",
+    "Z_OW_EY_2_(zoe2)",
+    "Z_OW_EY_3_(zoe3)"
+  ],
+  "zoee": [
+    "Z_OW_1_EY_EY_1_(zo1ee1)",
+    "Z_OW_2_EY_EY_2_(zo2ee2)",
+    "Z_OW_3_EY_EY_2_(zo3ee2)",
+    "Z_OW_3_EY_EY_3_(zo3ee3)"
+  ],
+  "zom": [
+    "Z_OW_M_1_(zom1)",
+    "Z_OW_M_2_(zom2)",
+    "Z_OW_M_3_(zom3)"
+  ],
+  "zon": [
+    "Z_OW_N_1_(zon1)",
+    "Z_OW_N_2_(zon2)",
+    "Z_OW_N_3_(zon3)"
+  ],
+  "zoon": [
+    "Z_OW_1_OW_1_N_(zo1on1)",
+    "Z_OW_2_OW_2_N_(zo2on2)",
+    "Z_OW_3_OW_3_N_(zo3on3)"
+  ],
+  "zu": [
+    "Z_UW_1_(zu1)",
+    "Z_UW_2_(zu2)",
+    "Z_UW_3_(zu3)"
+  ],
+  "zul": [
+    "Z_UW_L_1_(zul1)",
+    "Z_UW_L_2_(zul2)",
+    "Z_UW_L_3_(zul3)"
+  ],
+  "zun": [
+    "Z_UW_N_1_(zun1)",
+    "Z_UW_N_2_(zun2)",
+    "Z_UW_N_3_(zun3)"
+  ],
+  "zuu": [
+    "Z_UW_1_UW_1_(zu1u1)",
+    "Z_UW_2_UW_2_(zu2u2)",
+    "Z_UW_3_UW_3_(zu3u3)"
+  ],
+  "zuun": [
+    "Z_UW_1_UW_1_N_(zu1un1)",
+    "Z_UW_2_UW_2_N_(zu2un2)",
+    "Z_UW_3_UW_3_N_(zu3un3)"
+  ]
+}
