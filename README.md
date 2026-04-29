@@ -1,12 +1,6 @@
 # A Text-to-Speech Software in Mooré Language
 
-**Naomie Dalhia Johanne Bambara**
-Master's Plan C Defense — May 2026
-
-**Thesis Committee**
-- Dr. Mark Petzold — Advisor
-- Dr. Koffi N. Ettien — Co-advisor
-- Dr. Jie H. Meichsner
+**Naomie D. J. Bambara**
 
 Saint Cloud State University · Department of Computer Science
 
@@ -322,50 +316,6 @@ This project successfully designed and implemented a text-to-speech system for t
 
 ---
 
-## References
-
-<details>
-<summary>Click to expand full reference list</summary>
-
-1. UNESCO Institute for Lifelong Learning (UIL), "GAL Country Profiles as of December 2021: Burkina Faso," Nov. 2022. [Online](https://www.uil.unesco.org/sites/default/files/medias/files/2022/11/gal_country_profiles_burkina.pdf?hub=90)
-2. Migration Policy Institute, "Burkina Faso." [Online](https://www.migrationpolicy.org/country-resource/burkina-faso)
-3. CIA, "Burkina Faso — The World Factbook." [Online](https://www.cia.gov/the-world-factbook/countries/burkina-faso/)
-4. J. Leclerc, "Language planning in the world," TLFQ, Laval University, 2014. [Online](https://www.axl.cefan.ulaval.ca/)
-5. B. Zoungrana, "Thesis Towards a Text-to-Speech System for Moore: Procedure and Analysis," 2012.
-6. E. Koffi, "A Tutorial on Acoustic Phonetic Feature Extraction for ASR and TTS Applications in African Languages," *Linguistic Portfolios*, vol. 9, no. 1, p. 11, Jan. 2020.
-7. D. Crystal, *A Dictionary of Linguistics and Phonetics*, 6th ed. Oxford, UK: Blackwell, 2008.
-8. T. Dutoit, *An Introduction to Text-to-Speech Synthesis*. Dordrecht: Kluwer Academic Publishers, 1997.
-9. P. Boersma and D. Weenink, "Praat: Doing phonetics by computer," 2025. [Online](https://www.fon.hum.uva.nl/praat/manual/)
-10. Librosa. [Online](https://librosa.org/doc/latest/)
-11. pydub. [Online](https://pydub.com/)
-12. NVIDIA, "Tacotron2." [GitHub](https://github.com/NVIDIA/tacotron2)
-13. Explosion AI, "spaCy." [Online](https://spacy.io/)
-14. S. Bird, E. Loper, and E. Klein, "Natural Language Toolkit (NLTK)." [Online](https://www.nltk.org/)
-15. J. Kong, "HiFi-GAN." [GitHub](https://github.com/jik876/hifi-gan)
-16. SciPy Developers, "SciPy Documentation." [Online](https://docs.scipy.org/doc/scipy/)
-17. NumPy. [Online](https://numpy.org/)
-18. B. Bechtold, "python-soundfile." [Online](https://python-soundfile.readthedocs.io/)
-19. FFmpeg Team, "FFmpeg." [Online](https://ffmpeg.org/)
-20. Numba. [Online](https://numba.pydata.org/)
-21. A. Géron, *Hands-on Machine Learning with Scikit-Learn and TensorFlow*, 3rd ed. O'Reilly, 2022.
-22. TensorFlow. [Online](https://www.tensorflow.org/)
-23. PyTorch. [Online](https://pytorch.org/docs/stable/)
-24. Python Software Foundation, "tkinter — Python interface to Tcl/Tk." [Online](https://docs.python.org/3/library/tkinter.html)
-25. E. Koffi and M. Petzold, "A Tutorial on Formant-Based Speech Synthesis for the Documentation of Critically Endangered Languages," *Linguistic Portfolios*, vol. 11, no. 1, Mar. 2022. [Online](https://repository.stcloudstate.edu/stcloud_ling/vol11/iss1/3/)
-26. E. Koffi, D. Fabres, S. Pingili, and G. Chava, "Speech Synthesis by Syllable Concatenation: Experimentation with Betine," *Linguistic Portfolios*, 2024.
-27. S. J. Russell and P. Norvig, *Artificial Intelligence: A Modern Approach*, 4th ed. Pearson, 2020.
-28. C. C. Aggarwal, *Neural Networks and Deep Learning*. Springer Nature, 2023.
-29. I. Goodfellow, Y. Bengio, and A. Courville, *Deep Learning*. MIT Press, 2016. [Online](https://www.deeplearningbook.org/)
-30. M. Kabore et al., "Voice Interaction in Moore Language: Study on Isolated Word Recognition in Audio Samples," Jan. 2024. doi: 10.4108/eai.18-12-2023.2348169
-31. E. E. B. Adam, "Deep Learning Based NLP Techniques in Text to Speech Synthesis for Communication Recognition," vol. 2, no. 4, pp. 209–215, Dec. 2020. doi: 10.36548/jscp.2020.4.002
-32. M. Rashad et al., "An Overview of Text-to-Speech Synthesis Techniques," 2010.
-33. I. Isewon, J. Oyelade, and O. Oladipupo, *IJAIS*, vol. 7, no. 2, 2014.
-34. V. Ademi and L. Ademi, "Natural Language Processing and Text-to-Speech Technology."
-35. A. Trilla, "Natural Language Processing Techniques in Text-to-Speech Synthesis and Automatic Speech Recognition," 2009.
-
-</details>
-
----
 
 ## License
 
@@ -373,6 +323,3 @@ This project successfully designed and implemented a text-to-speech system for t
 
 ---
 
-## Acknowledgments
-
-Special thanks to thesis committee members Dr. Mark Petzold, Dr. Koffi N. Ettien, and Dr. Jie H. Meichsner, and to the native Mooré speakers who participated in the evaluation.
