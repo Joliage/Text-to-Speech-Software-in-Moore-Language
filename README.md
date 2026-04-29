@@ -28,6 +28,10 @@ This README is a complete, ready-to-paste `README.md` that documents the reposit
 
 ---
 
+# Purpose
+
+The purpose of this project is to implement a Text-To-Speech program in the Moore language. Moore is a language spoken primarily in Burkina Faso by the Mossi ethnic group. Moore is predominantly an oral language. The language is spoken by approximately 5 million people in Burkina Faso and about 3 million in Côte d'Ivoire, as well as by around 850,000 speakers in Benin, Ghana, Mali, and Togo. Despite being a widely spoken language, I realized that there is no existing program to convert text to speech in it. I decided to address this issue by implementing text-to-speech software in Python. By using NLP (Natural Language Processing) techniques in Python, the project develops solutions to address the lack of TTS systems for the Moore Language. The development of the system requires a comprehensive linguistic assessment and the acquisition of both audio and textual data. These data are then aligned at the syllable level to form the foundation for machine-learning-based speech synthesis. This technology aims to make information more accessible to non-literate individuals, thereby contributing to efforts to reduce low literacy rates in Burkina Faso. According to the UNESCO Institute for Lifelong Learning [1], the adult literacy rate (ages 15+) in Burkina Faso stands at 41.2% overall, with a significant gender gap: 50.1% for males and 32.7% for females. 
+
 # What This Project Is
 
 A simple text-to-speech (TTS) system built from hand-cut syllable WAV files.
