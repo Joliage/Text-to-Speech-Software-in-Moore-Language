@@ -1,325 +1,347 @@
-# A Text-to-Speech Software in Mooré Language
+# Comprehensive Analysis of 6 Security Indicators
 
-**Naomie D. J. Bambara**
-
-Saint Cloud State University · Department of Computer Science
+**How IPQualityScore (IPQS) uses these flags to determine bot or malicious activity**
 
 ---
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Burkina Faso and the Mooré Language](#burkina-faso-and-the-mooré-language)
-3. [Speech Technology Landscape](#speech-technology-landscape)
-4. [TTS Theories and Approach Selection](#tts-theories-and-approach-selection)
-5. [Why Syllable Concatenation](#why-syllable-concatenation-is-right-for-mooré)
-6. [Data Collection](#data-collection-building-the-foundation)
-7. [System Architecture](#system-architecture-component-overview)
-8. [Core Classes](#core-classes-syllabledb--mapper)
-9. [Technical Problems & Solutions](#technical-problems--solutions)
-10. [Getting Started](#getting-started)
-11. [Evaluation](#evaluation-methodology)
-12. [Results](#evaluation-results)
-13. [Limitations](#current-limitations)
-14. [Future Work](#future-work)
-15. [Broader Impact](#broader-implications--impact)
-16. [References](#references)
+1. [Overview of VPNs and Their Relevance to Bot Detection](#overview-of-vpns-and-their-relevance-to-bot-detection)
+2. [The 6 Security Indicators](#the-6-security-indicators)
+3. [IPQS API Field Mapping](#ipqs-api-field-mapping)
+4. [How the Risk Score Is Calculated](#how-the-risk-score-is-calculated)
+5. [Example Walk-through](#example-walk-through)
+6. [Code Documentation](#code-documentation)
+7. [How to Run](#how-to-run)
+8. [Sample Output](#sample-output)
 
 ---
 
-## Introduction
+## Overview of VPNs and Their Relevance to Bot Detection
 
-This project presents the **first-ever Text-to-Speech (TTS) system for the Mooré language**, spoken by approximately 8 million people worldwide. Mooré currently has no existing digital speech tools, and the adult literacy rate in Burkina Faso stands at just 41.2% (UNESCO).
+A Virtual Private Network (VPN) is a technological solution that allows a secure, encrypted connection to be made between a user's computer — regardless of location — and a VPN server run by a VPN supplier (De, B. 2023).
 
-**Technical Approach:**
-- Python + NLP techniques
-- Syllable-level concatenative synthesis
-- Manual Praat annotation
-- Tone preservation across 3 tonal levels (high, mid, low)
+**Anonymity & Privacy:** VPNs have long been used for legitimate purposes such as remote login, accessing geo-restricted content, and protecting data on public hotspots.
 
-**Why This Matters:**
-- 📚 **Access to Education** — Non-literate speakers can hear educational content in their own language
-- 🏥 **Health Information** — Medical guidance delivered in Mooré reaches those who need it most
-- 🌍 **Digital Inclusion** — 8 million people gain a voice in the digital world
+**Abuse Potential:** Malicious actors often use VPNs to mask the origin of bot traffic, evade rate limiting, and conduct attacks while being difficult to blacklist.
+
+**Detection Challenges:** VPN IPs may come from commercial providers like NordVPN or ExpressVPN, which display properties like high user concentration, shared networks, or datacenter IP connectivity. In bot detection software such as IPQualityScore, the `vpn` flag helps identify whether the IP is associated with a known VPN (Irish et al., 2023). The `vpn` flag on its own does not indicate bot use, but it is a multiplier in bot detection — particularly in conjunction with other indicators such as a high fraud score, use of a proxy, or irregular user behavior.
 
 ---
 
-## Burkina Faso and the Mooré Language
+## The 6 Security Indicators
 
-| Statistic | Value |
-|-----------|-------|
-| Mooré speakers worldwide | ~8 million |
-| Mossi ethnic group in Burkina Faso | 52% |
-| Adult literacy rate (UNESCO 2022) | 41.2% |
-| Female literacy rate | 32.7% |
+### 1. `is_vpn` — Virtual Private Network Detection
 
-Mooré is the primary language of Ouagadougou (the capital of Burkina Faso). It has a historically oral tradition with limited written materials and no existing digital resources — no spell checkers, no machine translation, and no TTS. This project delivers the first functional TTS system for the Mooré language.
+| Field | Details |
+|-------|---------|
+| **Indicator** | `is_vpn: true` |
+| **Definition** | The IP address belongs to a known commercial or private VPN provider |
+| **Detection Method** | ASN and IP range ownership analysis · Provider database matching · Traffic pattern profiling (high user density per IP) |
+| **Legitimate Use Cases** | Privacy protection, remote work, bypassing geo-restrictions |
+| **Malicious Use Cases** | Hiding botnet origin · Evading IP bans · Simulating users from multiple countries |
+| **Bot Correlation** | High when combined with non-residential `connection_type`, high `fraud_score`, or mismatched User-Agent |
+| **Risk Level** | Medium alone → High in context |
 
----
-
-## Speech Technology Landscape
-
-Major voice assistants like Siri (Apple), Alexa (Amazon), and Google Assistant serve billions of users. Unfortunately, many African languages — including Mooré — do not yet have this capability. This project is the first-ever TTS system built for Mooré.
-
----
-
-## TTS Theories and Approach Selection
-
-| Approach | Status | Rationale |
-|----------|--------|-----------|
-| **Formant Synthesis** | ❌ Rejected | Mechanical output; unnatural sound; cannot preserve Mooré tonal contours |
-| **Di-phone Concatenation** | ❌ Rejected | Thousands of units required; impractical for low-resource languages; no Mooré di-phone database exists |
-| **Syllable Concatenation** | ✅ Chosen | Pre-recorded syllables; far fewer units than di-phones; preserves natural tone + timbre; feasible with Praat annotation |
+> **Example:** A scraper using residential VPNs to rotate IPs across 50 countries → `is_vpn=true`, `connection_type=Hosting`, `abuse_velocity=high` → Confirmed bot
 
 ---
 
-## Why Syllable Concatenation is Right for Mooré
+### 2. `is_proxy` — Anonymous Proxy Server
 
-- **🎵 Tone is Syllable-Level** — In Mooré, tone (high/mid/low) spans the entire syllable nucleus. Splitting at the phoneme level destroys the tonal contour, changing meaning. ~1,000 syllables needed.
-- **🎙️ Natural Voice Preserved** — Concatenating whole recorded syllables keeps the speaker's natural timbre, vowel quality, and intonation intact, with no synthetic artifacts.
-- **📐 Diphthongs & Triphthongs** — Complex vowel sequences are kept as single units, guaranteeing correct pronunciation for sounds like */yibeoo/*.
-- **⚖️ Feasible at This Scale** — Mooré's syllable inventory is ~1,000 units, which is practical to record manually.
+| Field | Details |
+|-------|---------|
+| **Indicator** | `is_proxy: true` |
+| **Definition** | The IP operates as an open or anonymous proxy (HTTP/SOCKS5) allowing traffic forwarding |
+| **Detection Method** | Active port scanning (80, 8080, 3128, etc.) · Known proxy provider databases · Historical forwarding behavior |
+| **Types** | Public proxies, elite proxies, datacenter proxies |
+| **Legitimate Use** | Rare — mostly enterprise reverse proxies (not flagged) |
+| **Malicious Use** | Botnets for scraping · CAPTCHA solving farms · Credential stuffing |
+| **Bot Correlation** | Very High — 90%+ of malicious bots use proxies |
+| **Risk Level** | High — almost always malicious in public context |
 
----
-
-## Data Collection: Building the Foundation
-
-### Recording Setup
-- Native speaker from Ouagadougou
-- Quiet environment with professional microphone
-- 100 carrier sentences
-- 44.1 kHz, 16-bit WAV format
-- Multiple tone variations
-
-### Processing Pipeline
-1. Manual Praat syllable cutting
-2. ARPABET encoding (tone levels 1–3)
-3. JSON lexicon generation
-4. WAV normalization
-5. Quality verification
-
-> **Example:** `R_AA_3_(Ra3).wav` = syllable **Ra** at **HIGH** tone (3)
-
-### Final Dataset
-- **862** syllable tokens
-- **442** lexicon entries
-- **100** sentence folders
-- **3** tone variations per syllable
+> **IPQS Note:** `is_proxy=true` triggers immediate suspicion. Even with a low `fraud_score`, it is treated as a red flag.
 
 ---
 
-## System Architecture: Component Overview
+### 3. `is_tor` — Tor Exit Node
 
-Python-based modular pipeline:
+| Field | Details |
+|-------|---------|
+| **Indicator** | `is_tor: true` |
+| **Definition** | The IP is a Tor network exit node — the final relay before reaching the destination |
+| **Detection Method** | Real-time sync with the Tor Project's official exit node list |
+| **Legitimate Use** | Anonymity for activists, journalists, whistleblowers |
+| **Malicious Use** | Automated abuse via Tor bots · Dark pool scraping · DDoS coordination |
+| **Bot Correlation** | Extremely High in volume traffic — Tor is rate-limited and unsuitable for high-frequency bots, but low-volume malicious automation is common |
+| **Risk Level** | Very High — nearly all Tor traffic in analytics should be filtered |
 
-```
-GUI (Tkinter) → Mapper → SyllableDB → Synthesizer → Audio Output
-```
-
-| Component | Role |
-|-----------|------|
-| **GUI** (Tkinter) | Live typing with real-time feedback |
-| **Mapper** | Text → ARPABET conversion, dynamic programming syllable splitter |
-| **SyllableDB** | 862-token index with 3 lookup strategies |
-| **Synthesizer** | Concatenation with crossfading |
-| **Audio Output** | PowerShell / aplay WAV playback |
-
-### Key Design Decisions
-- **Lazy loading:** Audio segments loaded only when first needed (memory efficient)
-- **Multi-tier lookup:** 5-level cascade ensures maximum token coverage
-- **Sentence-scoped tone:** `tokens_in_folder()` preserves original context tone
-- **Process isolation:** Separate audio subprocess prevents WSL crashes
+> **Important:** `is_tor=true` → Block by default in analytics systems.
 
 ---
 
-## Core Classes: SyllableDB & Mapper
+### 4. `is_hosting` — Datacenter / Hosting Provider
 
-### SyllableDB — Audio Database
+| Field | Details |
+|-------|---------|
+| **Indicator** | `is_hosting: true` |
+| **Definition** | The IP belongs to a cloud, VPS, or dedicated server provider |
+| **Detection Method** | ASN classification · BGP routing data · Reverse DNS patterns (e.g., `ec2-...amazonaws.com`) |
+| **Legitimate Use** | Web servers, APIs, CDNs, enterprise tools |
+| **Malicious Use** | Bot farms on cheap VPS · Scraping clusters · Fraud rings using cloud IPs |
+| **Bot Correlation** | High — especially when paired with a mobile User-Agent, no referrer, or high request velocity |
+| **Risk Level** | High in user-facing contexts (e.g., downloads, views) |
 
-Indexes all 862 WAV tokens from the folder tree using three indexes:
-- `units`: exact token → `SyllableUnit`
-- `paren_index`: `'(Ra3)'` content → token
-- `bare_stem_index`: `'ra'` → `'R_AA_3'`
+> **Key Insight:** A mobile User-Agent from a hosting IP = near-certain bot.
 
-**5-Level Lookup Cascade:**
-1. Exact match (case-sensitive)
-2. Case-insensitive match
-3. Strip digits: `'Ra'` from `'Ra3'`
-4. Parentheses content lookup
-5. Bare stem fallback
+---
 
-### Mapper — Linguistic Layer
+### 5. `is_abuse` — Recent Abuse Reports
 
-Converts typed text → ARPABET tokens.
+| Field | Details |
+|-------|---------|
+| **Indicator** | `is_abuse: true` |
+| **Definition** | The IP has been reported for abuse in the last 30 days (spam, scraping, brute-force, etc.) |
+| **Detection Method** | IPQS Fraud Network (community + partner reports) · Honeypot traps · Partner API feedback loop |
+| **Severity Levels** | Tied to `abuse_velocity`: low, medium, high |
+| **Bot Correlation** | Direct evidence of malicious automation |
+| **Risk Level** | High — especially if `abuse_velocity=high` |
 
-**Key Methods:**
-- `set_sentence_folder()` — Loads tone map for selected sentence context
-- `_best()` — Selects correct tone variant from `sentence_tokens`
-- `_dp()` — Dynamic programming syllable splitter (minimizes unmatched characters)
-- `map_word()` — Tries lexicon → DP split → ARPABET direct
+> **Example:** An IP with 47 scraping reports in 24 hours → `is_abuse=true`, `abuse_velocity=high` → Active bot
 
-**DP Splitter Example:**
-```
-'yeelam' → 'yee' + 'lam' ✓  (correct)
-  NOT     'yeel' + 'am' ❌
+---
+
+### 6. `is_relay` — Email or Traffic Relay Service
+
+| Field | Details |
+|-------|---------|
+| **Indicator** | `is_relay: true` |
+| **Definition** | The IP belongs to an email relay, CDN edge, or traffic forwarding service |
+| **Detection Method** | Known relay ASN/IP ranges · Header analysis · Service fingerprinting |
+| **Legitimate Use** | Email delivery, CDN caching, privacy relays |
+| **Malicious Use** | Abusing free tiers for bot traffic · Hiding origin via Apple Private Relay · Spam relay chains |
+| **Bot Correlation** | Moderate to High — depends on service |
+| **Risk Level** | Context-dependent |
+
+> **Special Case:** Apple iCloud Private Relay (`is_relay=true`) is increasingly used by real users on iOS.
+
+---
+
+## IPQS API Field Mapping
+
+| Security Indicator | IPQS API Field | Value → `true` |
+|--------------------|----------------|-----------------|
+| `is_vpn` | `vpn` | `true` |
+| `is_proxy` | `proxy` | `true` |
+| `is_tor` | `tor` | `true` |
+| `is_hosting` | `connection_type` | `"Hosting"`, `"Business"`, `"Cloud"` |
+| `is_abuse` | `recent_abuse` | `true` |
+| `is_relay` | `relay` (or inferred from `connection_type` + ASN) | `true` or detected |
+
+---
+
+## How the Risk Score Is Calculated
+
+The script uses **AbstractAPI IP-Intelligence** as the primary source and **ip-api.com** as a fallback. Because of that, there is no `fraud_score` field in the API responses (De, B. 2023). Instead, the risk metric is computed from the 6 security flags returned by AbstractAPI:
+
+```python
+is_vpn     = security.get("is_vpn", False)
+is_proxy   = security.get("is_proxy", False)
+is_tor     = security.get("is_tor", False)
+is_hosting = security.get("is_hosting", False)
+is_abuse   = security.get("is_abuse", False)
+is_relay   = security.get("is_relay", False)
 ```
 
-### Synthesizer — Audio Concatenation
+**Scoring logic:**
 
-Joins token audio into a final output signal:
-1. Iterate over ARPABET token list
-2. Retrieve `SyllableUnit` from DB
-3. Call `unit.load()` (lazy loading)
-4. Append with crossfade (5–20 ms)
+```python
+"is_bot":          any(flags)                                # True if at least one flag is True
+"risk_score":      risk_score                                # Numeric value (0–120)
+"classification":  "BOT DETECTED" if is_bot else "NOT A BOT"
+```
 
-**Supporting Scripts:**
-- `mfcc_eval.py` — MFCC + DTW objective evaluation (token similarity measurement)
-- `manifest_to_lexicon_from_manifests.py` — Builds JSON lexicon (442 entries) from CSV manifests
-- `run_on_typing.py` — Keypress launcher for rapid testing without full GUI
+Each flag that is `True` adds **20 points**. If `False`, it adds 0.
 
----
-
-## Technical Problems & Solutions
-
-### Problem 1: WSL Application Crash
-- **Symptoms:** Application crashed on any keystroke with silent failure — no logs, no traceback.
-- **Solution:** Used `aplay` subprocess (Linux ALSA) with complete OS-level process isolation to avoid Python-ALSA interaction.
-
-### Problem 2: Incorrect Word Syllable Splits
-- **Symptoms:** Greedy algorithm produced wrong splits (e.g., `'yeelam'` → `'yeel' + 'am'` instead of `'yee' + 'lam'`).
-- **Solution:** Replaced with a Dynamic Programming (DP) splitter that evaluates all splits simultaneously, minimizes unmatched characters, and prefers shorter valid keys.
-
-### Problem 3: Wrong Tone Selection
-- **Symptoms:** System played the wrong tone variant (e.g., `ra1` instead of `ra3`), picking the first match alphabetically and producing incorrect meaning.
-- **Solution:** Implemented `tokens_in_folder()` method — scans the selected sentence folder and maps bare stems to actual tokens, preserving original context tone.
-
-### Problem 4: Overlapping Audio Playback
-- **Symptoms:** Multiple audio clips played simultaneously during rapid typing.
-- **Solution:** Created `_stop_audio()` function that calls `p.terminate()` and `p.wait(timeout=1)` before every new playback, guaranteeing a single audio process.
-
-### Problem 5: Incomplete Database Indexing
-- **Symptoms:** SyllableDB only scanned the root folder, finding ~10 tokens instead of 862.
-- **Solution:** Replaced `os.listdir()` with `os.walk()` to recursively traverse all 100 sentence sub-folders and index every `.wav` file.
-
-### Problem 6: Silent Playback During Zoom Demos
-- **Symptoms:** No audio during screen-sharing because WSL ALSA doesn't reach the Windows audio mixer.
-- **Solution:** Added a PowerShell audio backend that exports to a Windows temp directory, converts the path with `_win_path()`, and runs `System.Media.SoundPlayer.PlaySync()` as a subprocess routed through the Windows mixer.
+**Why 20 points per flag?**
+- **Simplicity** — easy to understand and audit
+- **Equal weighting** — each anonymity/abuse signal is considered equally dangerous
+- **Range 0–120** — provides a clear scale (0 = no risk, 120 = maximum risk)
 
 ---
 
-## Getting Started
+## Example Walk-through
+
+Given this AbstractAPI response:
+
+```json
+{
+  "ip_address": "66.249.80.196",
+  "security": {
+    "is_vpn": false,
+    "is_proxy": true,
+    "is_tor": false,
+    "is_hosting": true,
+    "is_abuse": false,
+    "is_relay": false
+  }
+}
+```
+
+| Flag | Value | Points |
+|------|-------|--------|
+| `is_vpn` | `false` | 0 |
+| `is_proxy` | `true` | 20 |
+| `is_tor` | `false` | 0 |
+| `is_hosting` | `true` | 20 |
+| `is_abuse` | `false` | 0 |
+| `is_relay` | `false` | 0 |
+
+**Result:** `risk_score = 40` · `is_bot = True` · `classification = "BOT DETECTED"`
+
+---
+
+## Code Documentation
+
+### 1. Imports & Type Hints
+
+```python
+import json
+import requests
+import uuid
+from datetime import datetime, timezone
+from typing import List, Dict, Any
+import time
+```
+
+Loads standard libraries for JSON handling, HTTP requests, UUID generation, UTC-aware timestamps, type hints, and rate-limit delays.
+
+### 2. Configuration Constants
+
+```python
+ABSTRACT_API_KEY = "YOUR_API_KEY_HERE"
+ABSTRACT_ENDPOINT = "https://ip-intelligence.abstractapi.com/v1/"
+IPAPI_ENDPOINT = "http://ip-api.com/json/{ip}?fields=status,country,regionName,city,isp,org,proxy,hosting"
+REQUEST_DELAY = 1.1  # seconds – respect free-tier rate limits
+```
+
+### 3. Embedded SOLR Sample JSON
+
+The script embeds a sample SOLR statistics JSON containing 10 records for testing. IPs include Google crawlers, Cloudflare, Microsoft (Bing), and residential connections.
+
+### 4. `load_solr_docs()`
+
+Parses the embedded JSON string and extracts the `docs` list from the SOLR response.
+
+### 5. `extract_unique_ips(docs)`
+
+Builds a deduplicated, sorted list of IP addresses from the SOLR docs using a set for automatic deduplication.
+
+### 6. `get_ip_data_from_abstract(ip_address)`
+
+Sends a GET request to AbstractAPI with a 10-second timeout. Returns the JSON payload or `None` on failure.
+
+### 7. `get_ip_data_from_ipapi(ip_address)`
+
+Queries ip-api.com for country, city, ISP, etc. as a fallback. Returns `None` on error.
+
+### 8. `classify_ip(abstract_data, ipapi_data)`
+
+The core classification function:
+1. Extracts the 6 security flags from AbstractAPI's response
+2. Computes `risk_score` (20 pts per active flag, range 0–120)
+3. Determines `is_bot` (any flag `True` → bot)
+4. Fills in geo/ISP fallbacks from ip-api.com
+5. Adds timestamps and UUIDs
+6. Returns a complete report dictionary
+
+### 9. `print_individual_report(report)`
+
+Pretty-prints a bordered block for a single IP showing UID, location, ISP, security flags, risk score, and classification.
+
+### 10. `print_summary_table(reports)`
+
+Prints a compact one-line-per-IP table plus a final bot-count summary with percentage.
+
+### 11. `main()`
+
+Orchestrates the full pipeline: load data → extract IPs → loop through each IP → call APIs → classify → print per-IP and summary → write JSON report to disk.
+
+### 12. Entry-Point Guard
+
+```python
+if __name__ == "__main__":
+    main()
+```
+
+Runs `main()` only when the file is executed directly.
+
+---
+
+## How to Run
 
 ### Prerequisites
-- **Python 3.10.12** (project-tested)
+
+- Python 3.6+
 
 ### Installation
 
 ```bash
-# 1. Create virtual environment
-python3.10 -m venv venv
-source venv/bin/activate          # Ubuntu/macOS
-# .\\venv\\Scripts\\Activate.ps1   # Windows PowerShell
+pip install requests
+```
 
-# 2. Install Python dependencies
-pip install --upgrade pip setuptools wheel
-pip install -r requirements.txt
+### Execution
 
-# 3. Install system packages (Ubuntu)
-sudo apt update
-sudo apt install -y ffmpeg libsndfile1 build-essential
-
-# 4. Run the orchestration script (performs all pipeline steps and launches the GUI)
-./prepare_and_run_gui.sh
+```bash
+python Main.py
 ```
 
 ---
 
-## Evaluation Methodology
+## Sample Output
 
-### Test Design
-- **Participants:** 3 native Mooré speakers
-- **Test sentences:** 2
+```
+[*] Loading SOLR sample statistics data …
+[*] Found 10 records → extracting unique IPs …
+[*] 7 distinct IP addresses to analyse.
+```
 
-| Sentence | Text | Translation | Words |
-|----------|------|-------------|-------|
-| 1 | *Ráwã yèelam tí ãadsã yí wusg zàamẽ zàabre* | "Man said that stars came out a lot yesterday evening" | 8 |
-| 2 | *Á watà zaabr la yíbeoogò* | "He comes afternoon and morning" | 5 |
+### Per-IP Results
 
-### Evaluation Tasks
-1. **Comprehension Test** — Listen and repeat sentences
-2. **Transcription Test** — Identify each individual word
-3. **Naturalness Rating** — Rate on a scale of 1–4 (4 = Very natural, 1 = Not natural)
+| IP | BOT | Score | Flags |
+|----|-----|-------|-------|
+| `102.140.205.7` | NO | 0 | — |
+| `2a06:98c0:3600::103` | YES | 40 | hosting, relay |
+| `52.167.144.219` | YES | 40 | hosting, relay |
+| `66.249.80.196` | YES | 40 | hosting, relay |
+| `66.249.80.201` | YES | 40 | hosting, relay |
+| `69.160.14.238` | NO | 0 | — |
+| `74.125.214.99` | YES | 40 | hosting, relay |
 
----
+**Summary:** 5/7 IPs classified as BOT (71.4%)
 
-## Evaluation Results
+### Individual Report Example
 
-| Metric | Score | Details |
-|--------|-------|---------|
-| **Comprehension** | **100%** | All 3 participants correctly recognized both sentences |
-| **Transcription** | **97.92%** | Sentence 1: 95.84% (23/24 words); Sentence 2: 100% (15/15 words) |
-| **Naturalness** | **3.17 / 4** | Ratings: 3.5, 3.0, 3.0 — rated as "Natural" |
+```
+==================================================
+UID            : USR-FB7608
+IP             : 102.140.205.7
+Country / City : Kenya / Nairobi
+ISP            : Wananchi Group (K) LTD
+Domain / DNS   : wananchi.com
+Type           : isp
+------------------------------
+Security Flags:
+  is_vpn      : False
+  is_proxy    : False
+  is_tor      : False
+  is_hosting  : False
+  is_abuse    : False
+  is_relay    : False
+------------------------------
+Risk Score     : 0/120
+Bot?           : False → NOT A BOT
+==================================================
+```
 
-### Key Findings
-- Excellent intelligibility validates the concatenative approach
-- High word recognition shows proper tone preservation
-- Naturalness score indicates room for prosody improvement
-- System successful for limited-vocabulary demonstration
-
----
-
-## Current Limitations
-
-1. **Small Dataset:** Only 100 sentences; 2 used for evaluation with 3 participants
-2. **Manual Annotation:** Praat syllable segmentation is accurate but time-consuming
-3. **Tone Modification:** Simple librosa pitch-shifting introduces artifacts
-4. **No Coarticulation:** Isolated tokens can't reproduce natural transitions
-5. **Heuristic Mapping:** ARPABET matching; edge cases need manual cleanup
-6. **Small Evaluation:** 3 listeners insufficient for statistical testing
-
----
-
-## Future Work
-
-### Immediate Priorities
-- Expand listening tests (n ≥ 10)
-- WORLD vocoder for tone modeling
-- Duration & prosody modeling
-- Concatenation smoothing
-
-### Long-Term Vision
-- Expand corpus (10+ hours of recorded speech)
-- Semi-automatic annotation (Montreal Forced Aligner)
-- Neural TTS (Tacotron2)
-- Deployment applications: language learning apps, accessible e-books, voice assistants
-
----
-
-## Broader Implications & Impact
-
-### Technical Contributions
-- First TTS system for the Mooré language
-- Validates the concatenative approach for low-resource African languages
-- No GPU/cloud infrastructure required — accessible for developing regions
-- Open-source codebase for similar projects
-
-### Practical Applications
-- Literacy tools and educational audio
-- Accessibility for visually impaired and elderly populations
-- Low-cost voice interfaces for local services
-
----
-
-## Conclusion
-
-This project successfully designed and implemented a text-to-speech system for the Mooré language using syllable concatenation instead of phoneme concatenation. Syllables were annotated using ARPABET notation with numbers 1–3 to mark vowel tones. The system integrates open-source libraries including pydub and librosa for audio processing, TensorFlow for modeling, and spaCy for text normalization. Evaluation with 3 native Mooré speakers demonstrated strong intelligibility (100% comprehension, 97.92% transcription accuracy) and natural-sounding output (3.17/4 naturalness). Future work will focus on expanding the corpus, implementing high-fidelity tonal modeling, semi-automatic annotation, and larger perceptual studies.
-
----
-
-
-## License
-
-*This project was developed as part of a Master's thesis at Saint Cloud State University.*
-
----
 
